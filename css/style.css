@@ -1,75 +1,4 @@
 @charset "UTF-8";
-@font-face {
-  font-family: "whyte";
-  src: url("../../font/WhyteInktrap-Heavy.ttf") format("ttf"), url("../../font/WhyteInktrap-Heavy.woff") format("woff"), url("../../font/WhyteInktrap-Heavy.woff2") format("woff2");
-  font-weight: 900;
-  font-style: normal;
-}
-@font-face {
-  font-family: "whyteItalic";
-  src: url("../../font/WhyteInktrap-HeavyItalic.ttf") format("ttf"), url("../../font/WhyteInktrap-HeavyItalic.woff") format("woff"), url("../../font/WhyteInktrap-HeavyItalic.woff2") format("woff2");
-  font-weight: 900;
-  font-style: normal;
-}
-@font-face {
-  font-family: "qanelasRegular";
-  src: url("../../font/Qanelas-Regular.ttf") format("ttf"), url("../../font/Qanelas-Regular.woff") format("woff"), url("../../font/Qanelas-Regular.woff2") format("woff2");
-  font-weight: 900;
-  font-style: normal;
-}
-.btn__header--search {
-  display: inline;
-  padding: 12px;
-  width: 400px;
-  cursor: pointer;
-  border-radius: 40px;
-  font-size: 14px;
-  font-weight: 600;
-  border: 0px;
-  text-align: left;
-  content: "";
-}
-
-.svg-icon {
-  position: relative;
-  top: 0.125em;
-  /* Prevent the icon from shrinking inside a flex container. */
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  /* Scale the icon to match the font-size of the parent element. */
-  height: 25px;
-  width: 25px;
-  /* Let the icon take whatever color the parent has. */
-  fill: currentColor;
-  /*
-   * If the icon is used on a link, which has a color transition,
-   * we can also use a transition on the fill value.
-  */
-  -webkit-transition: fill 0.3s;
-  transition: fill 0.3s;
-}
-
-.header__main {
-  padding: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.header__logo--img {
-  min-width: 200px;
-  width: 200px;
-  padding-right: 20px;
-}
-
-.header__links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: auto;
-  font-family: "whyte";
-}
-
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -91,8 +20,257 @@ img {
   max-width: 100%;
 }
 
+.content__widht {
+  width: 1500px;
+}
+
 /*utilización
 .close-button {
     z-index: z("modal", "close");
   }
 */
+h1 {
+  font-family: whyte;
+  font-size: 60px;
+  line-height: 70px;
+}
+
+h2 {
+  font-family: whyte;
+  font-size: 45px;
+  line-height: 55px;
+}
+
+h3 {
+  font-family: whyte;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+h4 {
+  font-family: qanelasRegular;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+h5 {
+  font-family: qanelasRegular;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+p {
+  font-family: qanelasRegular;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+@font-face {
+  font-family: "whyte";
+  src: url("../../font/WhyteInktrap-Heavy.ttf") format("ttf"), url("../../font/WhyteInktrap-Heavy.woff") format("woff"), url("../../font/WhyteInktrap-Heavy.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "whyteItalic";
+  src: url("../../font/WhyteInktrap-HeavyItalic.ttf") format("ttf"), url("../../font/WhyteInktrap-HeavyItalic.woff") format("woff"), url("../../font/WhyteInktrap-HeavyItalic.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "qanelasRegular";
+  src: url("../../font/Qanelas-Regular.ttf") format("ttf"), url("../../font/Qanelas-Regular.woff") format("woff"), url("../../font/Qanelas-Regular.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+.btn__header--search {
+  display: inline;
+  padding: 10px;
+  width: 300px;
+  cursor: pointer;
+  border-radius: 40px;
+  border: 0px;
+  text-align: left;
+  font-family: qanelasRegular;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.btn__tag {
+  padding: 5px 15px 5px 15px;
+  color: #000000;
+  background-color: #F2F0F0;
+  cursor: pointer;
+  border-radius: 40px;
+  border: 0px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: -100px;
+  font-family: qanelasRegular;
+  font-size: 15px;
+  line-height: 0px;
+}
+.btn__tag:hover {
+  background-color: #18FFFF;
+}
+.btn__tag:active {
+  background-color: #18FFFF;
+}
+
+.btn__callaction--white {
+  text-decoration: none;
+  color: #ffffff;
+}
+.btn__callaction--white:hover {
+  color: #ffffff;
+}
+
+.callaction__orange {
+  padding: 15px 15px;
+  background-color: #FF3D00;
+}
+.callaction__orange:hover {
+  background-color: #000000;
+}
+.callaction__orange h3 {
+  margin: 0px;
+}
+
+.callaction__black {
+  padding: 15px 15px;
+  background-color: #000000;
+}
+.callaction__black:hover {
+  background-color: #FF3D00;
+}
+.callaction__black h3 {
+  margin: 0px;
+}
+
+.footer {
+  width: 1500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__section--two {
+  margin-left: 0px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.header__main {
+  height: 500px;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(../resources/img/foto-cabecera.jpeg);
+}
+
+.header__logo--img {
+  min-width: 150px;
+  width: 100px;
+  padding-right: 20px;
+}
+
+.header__links {
+  margin-left: auto;
+}
+@media all and (max-width: 850px) {
+  .header__links {
+    margin-left: 0px;
+  }
+}
+
+.header__links a {
+  font-family: qanelasRegular;
+  font-size: 17px;
+  line-height: 25px;
+  color: #000000;
+  padding-left: 20px;
+  text-decoration: none;
+}
+.header__links a:hover {
+  color: #FF3D00;
+}
+
+@media all and (min-width: 850px) {
+  .grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .grid__cell--100 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(100%);
+            flex: 0 0 calc(100%);
+  }
+  .grid__cell--75 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(75%);
+            flex: 0 0 calc(75%);
+  }
+  .grid__cell--60 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(60%);
+            flex: 0 0 calc(60%);
+    display: -ms-inline-grid;
+    display: inline-grid;
+  }
+  .grid__cell--50 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(50%);
+            flex: 0 0 calc(50%);
+  }
+  .grid__cell--33 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(33%);
+            flex: 0 0 calc(33%);
+  }
+  .grid__cell--20 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(20%);
+            flex: 0 0 calc(20%);
+    display: -ms-inline-grid;
+    display: inline-grid;
+  }
+}
+@media all and (max-width: 849px) {
+  .grid__cell--100 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(100%);
+            flex: 0 0 calc(100%);
+  }
+  .grid__cell--75 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(100%);
+            flex: 0 0 calc(100%);
+  }
+  .grid__cell--60 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(100%);
+            flex: 0 0 calc(100%);
+    display: -ms-inline-grid;
+    display: inline-grid;
+  }
+  .grid__cell--50 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(100%);
+            flex: 0 0 calc(100%);
+  }
+  .grid__cell--33 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(100%);
+            flex: 0 0 calc(100%);
+  }
+  .grid__cell--20 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(100%);
+            flex: 0 0 calc(100%);
+    display: -ms-inline-grid;
+    display: inline-grid;
+  }
+}

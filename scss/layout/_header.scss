@@ -1,15 +1,31 @@
 .header__main {
+    height: 500px;
     padding: 30px;
     display: flex;
+    background-image: url(../resources/img/foto-cabecera.jpeg);
+
 }
 
 .header__logo--img {
-    min-width: 200px;
-    width: 200px;    
+    min-width: 150px;
+    width: 100px;    
     padding-right: 20px;
 }
 
 .header__links {
-    display: flex;
     margin-left: auto;
+
+    @media all and (max-width: 850px) {
+        margin-left: 0px;
+    }
+}
+
+.header__links a{
+    @include font-style (qanelasRegular, 17px, 25px);
+    color: $colorBlack;
+    padding-left: $padding-medium;
+    text-decoration: none;
+    &:hover {
+        color: $colorOrange;
+    } 
 }

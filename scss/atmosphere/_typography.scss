@@ -1,4 +1,24 @@
-p{
-    @include fontStyle (qanelasRegular, 20px, 20px); 
-
+h1 {
+    @include font-style (whyte, 60px, 70px);
 }
+
+h2 {
+    @include font-style (whyte, 45px, 55px);
+}
+
+h3 {
+    @include font-style (whyte, 25px, 35px);
+}
+
+h4 {
+    @include font-style (qanelasRegular, 25px, 35px);
+}
+
+h5 {
+    @include font-style (qanelasRegular, 15px, 25px);
+}
+
+p {
+    @include font-style (qanelasRegular, 17px, 30px);
+}
+

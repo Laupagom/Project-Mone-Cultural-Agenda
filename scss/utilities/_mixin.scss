@@ -1,16 +1,17 @@
-//FONT
-@mixin font-style ( $fontFamily, $fontSize, $lineHeight) {
+//font
+@mixin font-style ($fontFamily, $fontSize, $lineHeight) {
         font-family: $fontFamily;
         font-size: $fontSize;
         line-height: $lineHeight;
  }
 
+//links
 @mixin style-links {
     a {
         color: $colorBlack;
         
         &:hover {
-            color: $colorOrange
+            color: $colorOrange;
         }
     }
     
