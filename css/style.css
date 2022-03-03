@@ -66,14 +66,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-  float: right;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
   margin-left: auto;
+  font-family: "whyte";
 }
 
 html {
