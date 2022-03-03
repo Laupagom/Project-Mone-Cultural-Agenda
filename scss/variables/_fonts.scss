@@ -1,0 +1,29 @@
+//heavy
+@font-face {
+      font-family: 'Whyte Inktrap Heavy';
+      src: url('../../font/WhyteInktrap-Heavy.ttf') format('ttf'),
+           url('../../font/WhyteInktrap-Heavy.woff') format('woff'),
+           url('../../font/WhyteInktrap-Heavy.woff2') format('woff2');
+      font-weight: 900;
+      font-style: normal;
+}
+
+//heavy-italic
+@font-face {
+    font-family: 'Whyte Inktrap Heavy Italic';
+    src: url('../../font/WhyteInktrap-HeavyItalic.ttf') format('ttf'),
+         url('../../font/WhyteInktrap-HeavyItalic.woff') format('woff'),
+         url('../../font/WhyteInktrap-HeavyItalic.woff2') format('woff2');
+    font-weight: 900;
+    font-style: italic;
+}
+
+//qanelas
+@font-face {
+    font-family: 'Qanelas Regular';
+    src: url('../../font/Qanelas-Regular.ttf') format('ttf'),
+         url('../../font/Qanelas-Regular.woff') format('woff'),
+         url('../../font/Qanelas-Regular.woff2') format('woff2');
+    font-weight: 900;
+    font-style: italic;
+}
