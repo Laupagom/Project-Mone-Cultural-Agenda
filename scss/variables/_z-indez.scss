@@ -1,0 +1,16 @@
+$z-layers: (
+  "z-top":           1,
+  "z-default":       0,
+  "modal":(
+        "close":     1,
+        "base":      0,
+        "background" -1
+    ),
+  "z-below":        -1
+);
+
+/*utilización
+.close-button {
+    z-index: z("modal", "close");
+  }
+*/
