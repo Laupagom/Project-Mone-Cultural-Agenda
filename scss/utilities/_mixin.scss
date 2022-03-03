@@ -1,0 +1,6 @@
+//FONT
+@mixin fontStyle ( $fontFamily, $fontSize, $lineHeight) {
+    font-family: $fontFamily;
+    font-size: $fontSize;
+    line-height: $lineHeight;
+}

@@ -1,0 +1,37 @@
+.btn__header--search {
+    display: inline;
+    padding: 12px;
+    width: 400px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 0px;
+    text-align: left;
+    content: "\f179";
+
+}
+
+
+.svg-icon {
+    position: relative;
+    top: .125em;
+
+    /* Prevent the icon from shrinking inside a flex container. */
+    flex-shrink: 0;
+
+    /* Scale the icon to match the font-size of the parent element. */
+    height: 25px;
+    width: 25px;
+
+    /* Let the icon take whatever color the parent has. */
+    fill: currentColor;
+
+    /*
+     * If the icon is used on a link, which has a color transition,
+     * we can also use a transition on the fill value.
+    */
+   transition: fill .3s;
+}
+
+

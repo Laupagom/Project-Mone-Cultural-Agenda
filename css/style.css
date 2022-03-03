@@ -1,22 +1,102 @@
 @charset "UTF-8";
 @font-face {
-  font-family: "Whyte Inktrap Heavy";
+  font-family: "whyte";
   src: url("../../font/WhyteInktrap-Heavy.ttf") format("ttf"), url("../../font/WhyteInktrap-Heavy.woff") format("woff"), url("../../font/WhyteInktrap-Heavy.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
-  font-family: "Whyte Inktrap Heavy Italic";
+  font-family: "whyteItalic";
   src: url("../../font/WhyteInktrap-HeavyItalic.ttf") format("ttf"), url("../../font/WhyteInktrap-HeavyItalic.woff") format("woff"), url("../../font/WhyteInktrap-HeavyItalic.woff2") format("woff2");
   font-weight: 900;
-  font-style: italic;
+  font-style: normal;
 }
 @font-face {
-  font-family: "Qanelas Regular";
+  font-family: "qanelasRegular";
   src: url("../../font/Qanelas-Regular.ttf") format("ttf"), url("../../font/Qanelas-Regular.woff") format("woff"), url("../../font/Qanelas-Regular.woff2") format("woff2");
   font-weight: 900;
-  font-style: italic;
+  font-style: normal;
 }
+.btn__header--search {
+  display: inline;
+  padding: 12px;
+  width: 400px;
+  cursor: pointer;
+  border-radius: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  border: 0px;
+  text-align: left;
+  content: "";
+}
+
+.svg-icon {
+  position: relative;
+  top: 0.125em;
+  /* Prevent the icon from shrinking inside a flex container. */
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  /* Scale the icon to match the font-size of the parent element. */
+  height: 25px;
+  width: 25px;
+  /* Let the icon take whatever color the parent has. */
+  fill: currentColor;
+  /*
+   * If the icon is used on a link, which has a color transition,
+   * we can also use a transition on the fill value.
+  */
+  -webkit-transition: fill 0.3s;
+  transition: fill 0.3s;
+}
+
+.header__main {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__logo--img {
+  min-width: 200px;
+  width: 200px;
+  padding-right: 20px;
+}
+
+.header__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  float: right;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-left: auto;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  max-width: 100%;
+}
+
 /*utilización
 .close-button {
     z-index: z("modal", "close");

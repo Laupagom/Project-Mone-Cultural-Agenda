@@ -1,3 +1,7 @@
+//atmosphere
+@import "atmosphere/_typography.scss";
+@import "atmosphere/_font-face.scss";
+
 //htmlelements
 @import "htmlelements/_buttons.scss";
 @import "htmlelements/_tags.scss";
@@ -6,7 +10,6 @@
 @import "layout/_cards.scss";
 @import "layout/_footer.scss";
 @import "layout/_header.scss";
-@import "layout/_menu.scss";
 @import "layout/_newsletter.scss";
 
 //site
@@ -17,11 +20,10 @@
 
 //utilities
 @import "utilities/_functions.scss";
-@import "utilities/_mixins.scss";
+@import "utilities/_mixin.scss";
 
 //variables
 @import "variables/_color.scss";
-@import "variables/_fonts.scss";
 @import "variables/_space.scss";
 @import "variables/_z-index.scss";
 
