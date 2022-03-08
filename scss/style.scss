@@ -17,12 +17,16 @@
 //htmlelements
 @import "htmlelements/_buttons.scss";
 @import "htmlelements/_tags.scss";
+@import "htmlelements/_search.scss";
 
 //layout
 @import "layout/_cards.scss";
 @import "layout/_footer.scss";
 @import "layout/_header.scss";
 @import "layout/_newsletter.scss";
+@import "layout/_menu-mobile.scss";
+@import "layout/_copyright.scss";
+
 
 //structure
 @import "structure/_grid.scss";

@@ -1,0 +1,38 @@
+.copyright {
+    display: flex;
+    padding-left: $unit;
+    padding-right: $unit;
+    background-color: $colorGrey;
+
+    @media all and (max-width: 770px) {
+        display: block;
+    }
+    
+    @media all and (min-width: 769px) {
+
+        .copy {
+            text-align: center;
+            justify-content: center; 
+
+            &__policity {
+                padding-top: $unit-medium;
+            }
+        
+            &:nth-child(2) {
+                margin-left: auto;
+                display: flex;
+            }
+        }
+    }
+}
+
+.copy__policity--links {
+    margin-left: $padding-small;
+    margin-right: $padding-small;
+    color: $colorBlack;
+    @include font-style (qanelasRegular, 12px, 25px);
+        &:hover {
+            color: $colorOrange;
+        }
+}
+

@@ -1,18 +1,25 @@
 .header__main {
     height: 500px;
-    padding: 30px;
-    display: flex;
-    background-image: url(../resources/img/foto-cabecera.jpeg);
+    background-image: url(../resources/img/rectangle-331.jpeg);
+    background-repeat: no-repeat;
+}
 
+.header__logo {
+    display: flex;
+    @media all and (max-width: 750px) {
+        display: block;
+    }
+    padding: 30px;
 }
 
 .header__logo--img {
-    min-width: 150px;
-    width: 100px;    
+    min-width: 200px;
+    width: 100px;
+    height: 35px;    
     padding-right: 20px;
 }
 
-.header__links {
+.menu__links {
     margin-left: auto;
 
     @media all and (max-width: 850px) {
@@ -20,7 +27,7 @@
     }
 }
 
-.header__links a{
+.menu__links a{
     @include font-style (qanelasRegular, 17px, 25px);
     color: $colorBlack;
     padding-left: $padding-medium;

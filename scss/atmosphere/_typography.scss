@@ -7,7 +7,7 @@ h2 {
 }
 
 h3 {
-    @include font-style (whyte, 25px, 35px);
+    @include font-style (whyte, 20px, 35px);
 }
 
 h4 {
@@ -15,7 +15,7 @@ h4 {
 }
 
 h5 {
-    @include font-style (qanelasRegular, 15px, 25px);
+    @include font-style (qanelasRegular, 12px, 25px);
 }
 
 p {

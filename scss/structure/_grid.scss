@@ -15,11 +15,11 @@
     
             &--60 {
                 flex: 0 0 calc(60%);
-                display: inline-grid;
             }
 
             &--50 {
                 flex: 0 0 calc(50%);
+
             }
     
             &--33 {
@@ -28,7 +28,6 @@
     
             &--20 {
                 flex: 0 0 calc(20%);
-                display: inline-grid;
             }
         }
     }
@@ -51,7 +50,6 @@
         
                 &--60 {
                     flex: 0 0 calc(100%);
-                    display: inline-grid;
                 }
     
                 &--50 {
@@ -64,7 +62,6 @@
         
                 &--20 {
                     flex: 0 0 calc(100%);
-                    display: inline-grid;
                 }
             }
         } 
