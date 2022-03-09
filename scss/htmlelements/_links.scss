@@ -1,0 +1,19 @@
+.links {
+    padding: $padding-small;
+    
+    &__search {
+        color: $colorBlack;
+        text-decoration: none;
+        &:hover {
+            color: $colorOrange;
+        }
+    }
+    &__title {
+        color: $colorGreyDark;
+    }
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
