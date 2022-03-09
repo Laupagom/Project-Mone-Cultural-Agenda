@@ -18,9 +18,11 @@
 .search__container {
     position: relative;
     &--searcher {
-        padding: 15px;
+        padding: 60px;
+        @media all and (max-width: 770px) {
+            padding: 15px;
+        }
     }
-
 }
   
 .search__input {
@@ -91,6 +93,12 @@
         padding-right: 20px;
     }
     
+}
+
+.search__subtitulo {
+    color: $colorOrange;
+    line-height: 0px;
+    padding-left: $padding-small;
 }
 
 

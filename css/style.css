@@ -34,7 +34,7 @@ img {
 h1 {
   font-family: whyte;
   font-size: 60px;
-  line-height: 70px;
+  line-height: 60px;
 }
 
 h2 {
@@ -209,7 +209,12 @@ p {
   position: relative;
 }
 .search__container--searcher {
-  padding: 15px;
+  padding: 60px;
+}
+@media all and (max-width: 770px) {
+  .search__container--searcher {
+    padding: 15px;
+  }
 }
 
 .search__input {
@@ -288,23 +293,27 @@ p {
   }
 }
 
+.search__subtitulo {
+  color: #FF3D00;
+  line-height: 0px;
+  padding-left: 15px;
+}
+
 .links {
   padding: 15px;
 }
 .links__search {
   color: #000000;
+  padding-bottom: 15px;
   text-decoration: none;
+  display: -ms-grid;
+  display: grid;
 }
 .links__search:hover {
   color: #FF3D00;
 }
 .links__title {
   color: #828282;
-}
-
-.centered {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .footer {

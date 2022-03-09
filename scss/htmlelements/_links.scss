@@ -3,7 +3,9 @@
     
     &__search {
         color: $colorBlack;
+        padding-bottom: $padding-small;
         text-decoration: none;
+        display: grid;
         &:hover {
             color: $colorOrange;
         }
@@ -13,7 +15,3 @@
     }
 }
 
-.centered {
-    margin-left: auto;
-    margin-right: auto;
-}
