@@ -14,7 +14,6 @@ html {
 body {
   padding: 0px;
   margin: 0px;
-  width: 100%;
   overflow-x: hidden;
 }
 
@@ -69,19 +68,19 @@ p {
 
 @font-face {
   font-family: "whyte";
-  src: url("../../font/WhyteInktrap-Heavy.ttf") format("ttf"), url("../../font/WhyteInktrap-Heavy.woff") format("woff"), url("../../font/WhyteInktrap-Heavy.woff2") format("woff2");
+  src: url("../font/WhyteInktrap-Heavy.ttf") format("ttf"), url("../font/WhyteInktrap-Heavy.woff") format("woff"), url("../font/WhyteInktrap-Heavy.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
   font-family: "whyteItalic";
-  src: url("../../font/WhyteInktrap-HeavyItalic.ttf") format("ttf"), url("../../font/WhyteInktrap-HeavyItalic.woff") format("woff"), url("../../font/WhyteInktrap-HeavyItalic.woff2") format("woff2");
+  src: url("../font/WhyteInktrap-HeavyItalic.ttf") format("ttf"), url("../font/WhyteInktrap-HeavyItalic.woff") format("woff"), url("../font/WhyteInktrap-HeavyItalic.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
   font-family: "qanelasRegular";
-  src: url("../../font/Qanelas-Regular.ttf") format("ttf"), url("../../font/Qanelas-Regular.woff") format("woff"), url("../../font/Qanelas-Regular.woff2") format("woff2");
+  src: url("../font/Qanelas-Regular.ttf") format("ttf"), url("../font/Qanelas-Regular.woff") format("woff"), url("../font/Qanelas-Regular.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
 }
@@ -623,6 +622,11 @@ a svg:hover #icono--hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .grid__cell--100 {
     -webkit-box-flex: 0;
