@@ -1,0 +1,67 @@
+.card__content {
+    width: 380px;
+    position: relative;
+    box-shadow: 0 2px 7px #dfdfdf;
+    margin: 50px auto;
+    background: $colorGrey;
+}
+
+.tag {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    @include font-style (qanelasRegular, 15px, 0px);
+    background: $colorTurquoise;
+    color: $colorBlack;
+    padding: 12px 10px;
+    border-radius: 50px;
+}
+
+.card__tumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../resources/img/card/card-1.png);
+    height: 200px;
+    padding: 50px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card__tumb img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card__details {
+    padding: 0px;
+}
+
+.card__date {
+    display: block;
+    @include font-style (qanelasRegular, 12px, 0px);
+    color: $colorWhite;
+    background-color: $colorBlack;
+    text-transform: uppercase;
+    padding: 5px;
+    padding: 10px 15px 10px 15px;
+}
+
+.card__title {
+    display: block;
+    margin-top: 30px;
+    @include font-style (whyte, 20px, 0px);
+    color: $colorBlack;
+    padding: 0px 15px 0px 15px;
+}
+
+.card__details h3 a:hover {
+    color: $colorOrange;
+}
+
+.card__details p {
+    font-size: 15px;
+    line-height: 25px;
+    color: $colorOrange;
+    padding: 0px 15px 0px 15px;
+    padding-bottom: 10px;
+}
