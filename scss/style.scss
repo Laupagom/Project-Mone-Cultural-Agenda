@@ -10,6 +10,9 @@
 @import "utilities/_functions.scss";
 @import "utilities/_mixin.scss";
 
+//structure
+@import "structure/_grid.scss";
+
 //atmosphere
 @import "atmosphere/_typography.scss";
 @import "atmosphere/_font-face.scss";
@@ -27,10 +30,9 @@
 @import "layout/_newsletter.scss";
 @import "layout/_menu-mobile.scss";
 @import "layout/_copyright.scss";
+@import "layout/_slider.scss";
 
 
-//structure
-@import "structure/_grid.scss";
 
 
 
