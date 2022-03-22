@@ -24,7 +24,7 @@
         top: 35px;
         right: 0px;
         padding-right: 25px;
-        z-index: 1;
+        z-index: z("modal", "background");
         -webkit-user-select: none;
         user-select: none;
     }
@@ -37,10 +37,11 @@
         left: -5px;
         cursor: pointer;
         opacity: 0;
-        z-index: 2;
+        z-index: z("modal", "close");
         -webkit-touch-callout: none;
     }
     
+
     .menu__toggle span {
         display: block;
         width: 33px;
@@ -49,7 +50,7 @@
         position: relative;
         background: $colorBlack;
         border-radius: 3px;
-        z-index: 1;
+        z-index: z("modal", "background");
         transform-origin: 4px 0px;
         transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
             background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;

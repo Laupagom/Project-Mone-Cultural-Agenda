@@ -121,7 +121,7 @@ h2 {
 h3 {
   font-family: whyte;
   font-size: 20px;
-  line-height: 35px;
+  line-height: 0px;
 }
 
 h4 {
@@ -162,7 +162,9 @@ p {
 }
 .btn__header--search {
   display: inline;
-  padding: 0px;
+  padding: 8px;
+  padding-left: 20px;
+  margin-top: -5px;
   width: 300px;
   cursor: pointer;
   border-radius: 40px;
@@ -177,6 +179,9 @@ p {
     width: 100%;
     margin-top: 10px;
   }
+}
+.btn__header--search-link {
+  text-decoration: none;
 }
 
 ::-webkit-input-placeholder {
@@ -486,6 +491,11 @@ p {
   margin-bottom: 0px;
 }
 
+.card__link {
+  text-decoration: none;
+  color: #000000;
+}
+
 .footer {
   background-color: #F2F0F0;
 }
@@ -646,6 +656,11 @@ a svg:hover #icono--hover {
     -webkit-touch-callout: none;
   }
 
+  /*utilización
+  .close-button {
+      z-index: z("modal", "close");
+    }
+  */
   .menu__toggle span {
     display: block;
     width: 33px;
@@ -788,9 +803,13 @@ a svg:hover #icono--hover {
   color: #FF3D00;
 }
 
+.swiper-wrapper {
+  padding-top: 10px;
+}
+
 .swiper-slide:hover {
-  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.45);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.45);
   border-radius: 20px 20px 0px 0px;
 }
 

@@ -1,9 +1,15 @@
+.swiper-wrapper {
+    padding-top: 10px;
+    z-index: z("z-below");
+}
+
 .swiper-slide {
     &:hover {
-        box-shadow:  0px 0px 20px rgba(0, 0, 0, 0.25);
+        box-shadow:  0px 0px 20px rgba(0, 0, 0, 0.45);
         border-radius: 20px 20px 0px 0px;
     }
 }
+
 .swiper-button-next, 
 .swiper-button-prev {
     position: absolute;
