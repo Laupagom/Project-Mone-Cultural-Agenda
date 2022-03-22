@@ -9,14 +9,14 @@
 </head>
 <body>
     <header class="header__main">
-            <div class="header__logo">
+            <div class="header__logo" id="nav">
                 <img class="header__logo--img"
                     src="resources/logo/logo-mone-eventos-en-valencia.png"
                     onmouseover="this.src='resources/logo/logo-hover-mone-eventos-en-valencia.png'"
                     onmouseout="this.src='resources/logo/logo-mone-eventos-en-valencia.png'"
                     />
 
-                <a class="btn__header--search-link" href="buscador.html">
+                <a class="btn__header--search--link" href="buscador.html">
                     <button href="buscador.html" class="btn__header--search" type="button">
                             Busca un evento en Valencia
                     </button> 
@@ -57,14 +57,6 @@
                     </div>
                 </nav>
             </div>
-
-        </div>
-        <div class="content__widht">
-            <a class="btn__tag" href="#">Conciertos</a>
-            <a class="btn__tag" href="#">Conciertos</a>
-            <a class="btn__tag" href="#">Conciertos</a>
-            <a class="btn__tag" href="#">Conciertos</a>
-            <a class="btn__tag" href="#">Conciertos</a>
         </div>
     </header>
 
@@ -77,7 +69,7 @@
                 <h1 class="event__title">Festival de les Arts</h1>
                 <p class="event__location">◉ Ciudad de las Artes y las CIencias</p>
             </div>
-            <div>
+            <div class="grid__cell--20">
                 <p class="event__location">◉ Ciudad de las Artes y las CIencias</p>
             </div>
         </section>
@@ -129,12 +121,16 @@
                         </div>
                         <div class="btn__cta--black--ticket"><a class="btn__cta--white" href=""><h3>tickets →</h3></a></div>    
                     </section> 
+                    <section class="card__ticket grid__cell--100">
+                        <div class="card__ticket--content">
+                            <h3>Abono Vip <div class="card__ticket--price">74,50€</div></h3>
+                            
+                            <p class=" grid grid__cell--80">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates rerum, totam ducimus repellendus incidunt amet, harum hic tenetur ad cum doloribus mollitia voluptate. Voluptas dolor non provident sit rerum distinctio?</p>
+                        </div>
+                        <div class="btn__cta--black--ticket"><a class="btn__cta--white" href=""><h3>tickets →</h3></a></div>    
+                    </section> 
         </section>
 
-
-
-
-        <div class="btn__cta--black"><a class="btn__callaction--white" href=""><h3>explorar noticias →</h3></a></div>
         
         <footer class="footer">
 

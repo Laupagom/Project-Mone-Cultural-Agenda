@@ -1,6 +1,6 @@
 
 .search {
-    
+
     &__wrapper{
         display: flex;
         padding-top: 200px;
@@ -19,7 +19,7 @@
         position: relative;
         &--searcher {
             padding: 60px;
-            @media all and (max-width: 770px) {
+            @media all and (max-width: 1280px) {
                 padding: 15px;
             }
         }
@@ -50,24 +50,26 @@
         :-ms-input-placeholder { /* IE 10+ */
             color: $colorBlack;
         }
+
+        &--buscador {
+            width: 100%;
+            border: none;
+            background: $colorGrey;
+            padding: 22.3px 30px;
+            border-radius: 30px;
+            outline: none;
+            color: $colorOrange;
+    
+            @include font-style (qanelasRegular, 17px, 0px);
+    
+            @media all and (max-width: 550px) {
+                width: 350px;
+            }
+        }
         
     }
 
-    &__input--buscador {
-        width: 500px;
-        border: none;
-        background: $colorGrey;
-        padding: 22.3px 30px;
-        border-radius: 30px;
-        outline: none;
-        color: $colorOrange;
-
-        @include font-style (qanelasRegular, 17px, 0px);
-
-        @media all and (max-width: 550px) {
-            width: 350px;
-        }
-    }
+    
   
 
     &__btn {
@@ -100,6 +102,8 @@
         line-height: 0px;
         padding-left: $padding-small;
     }
+
+    
 }
 
   

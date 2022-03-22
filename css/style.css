@@ -158,12 +158,13 @@ p {
 }
 
 .event__title {
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .event__location {
   color: #FF3D00;
+  margin-top: 0px;
 }
 
 @font-face {
@@ -316,7 +317,7 @@ p {
 .search__container--searcher {
   padding: 60px;
 }
-@media all and (max-width: 770px) {
+@media all and (max-width: 1280px) {
   .search__container--searcher {
     padding: 15px;
   }
@@ -351,7 +352,7 @@ p {
   color: #000000;
 }
 .search__input--buscador {
-  width: 500px;
+  width: 100%;
   border: none;
   background: #F2F0F0;
   padding: 22.3px 30px;
@@ -415,6 +416,7 @@ p {
 }
 .links__title {
   color: #828282;
+  margin-top: 0px;
 }
 
 .tag {
@@ -628,7 +630,6 @@ a svg:hover #icono--hover {
   background-repeat: no-repeat;
 }
 .header__logo {
-  position: fixed;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
