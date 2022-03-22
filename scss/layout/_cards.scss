@@ -49,9 +49,12 @@
     }
 
     &__ticket {
+        margin: 15px;
         background-color: $colorGrey;
         border-radius: 20px 20px 0px 0px;
-        padding: 30px;
+        &--content {
+            padding: 20px 30px 10px 30px;
+        }
     }
 
     &__title--link {
@@ -105,6 +108,14 @@
         text-decoration: none;
         color: $colorBlack;
     }
+
+    &__ticket--price {
+        margin-left: auto;
+        text-align: right;
+        color: $colorOrange;
+    }
+    
 }
+
 
 

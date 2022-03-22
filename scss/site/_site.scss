@@ -21,9 +21,10 @@ img {
 }
 
 .content__widht {
-  padding: 30px;
-}
-.content__widht--event{
-    max-width: 1090px;
-    padding-top: 80px;
+  	padding: 30px;
+  	&--events {
+		max-width: 1190px;
+		margin-left: auto;
+		margin-right: auto;
+  	}
 }

@@ -40,12 +40,30 @@
                 h3 {
                     margin: 0px;
                 }
+
             }
 
             &--black {
                 padding: 35px 15px 34px 15px;
                 width: 100%;
                 background-color: $colorBlack;
+
+                &--ticket{
+                    text-align: right;
+                    padding: 5px 15px 5px 15px;
+                    width: 100%;
+                    background-color: $colorBlack;
+
+                    a {
+                        color: $colorWhite;
+                        text-decoration: none;
+                        height: 30px;
+                    }
+
+                    &:hover {
+                        background-color: $colorOrange;
+                    }
+                }
 
                 a {
                     color: $colorWhite;
@@ -60,6 +78,9 @@
                 h3 {
                     margin: 0px;
                 }
+                
+                
+                
             }
     }
 
@@ -102,66 +123,3 @@
 
 
 
-
-
-
-.callaction__orange--event {
-    background-color: $colorOrange;
-    text-align: right;
-    padding: 35px 15px 34px 15px;
-   
-    & a{
-    color: $colorWhite;
-    text-decoration: none;
-    height: 30px;
-    }
-    width: 100%;
-    
-    &:hover {
-        background-color: $colorBlack;
-    }
-    
-    & h3 {
-        margin: 0px;
-    }
-}
-
-.callaction__black {
-    padding: 35px 15px 34px 15px;
-    background-color: $colorBlack;
-
-    & a{
-        color: $colorWhite;
-        text-decoration: none;
-        height: 30px;
-        }
-        width: 100%;
-   
-    &:hover {
-        background-color: $colorOrange;
-    }
-    
-    & h3 {
-        margin: 0px;
-    }
-}
-
-.callaction__orange--ticket {
-    padding: 35px 15px 34px 15px;
-    background-color: $colorBlack;
-
-    & a{
-        color: $colorWhite;
-        text-decoration: none;
-        height: 30px;
-        }
-        width: 100%;
-   
-    &:hover {
-        background-color: $colorOrange;
-    }
-    
-    & h3 {
-        margin: 0px;
-    }
-}
