@@ -1,7 +1,7 @@
 .copyright {
     display: flex;
-    padding-left: $unit;
-    padding-right: $unit;
+    padding-left: $unit-medium;
+    padding-right: $unit-medium;
     background-color: $colorGrey;
 
     @media all and (max-width: 770px) {

@@ -1,23 +1,90 @@
-.btn__header--search {
-    display: inline;
-    padding: 8px;
-    padding-left: 20px;
-    margin-top: -5px;
-    width: 300px;
-    cursor: pointer;
-    border-radius: 40px;
-    border: 0px;
-    text-align: left;
-    @include font-style (qanelasRegular, 17px, 25px);
-    @media all and (max-width: 550px) {
-        width: 100%;
-        margin-top: 10px;
+.btn {
+
+    &__tag {
+        padding: 5px 15px 5px 15px;
+        color: $colorBlack;
+        background-color: $colorGrey;
+        cursor: pointer;
+        border-radius: 40px;
+        border: 0px;
+        text-align: center;
+        text-decoration: none;
+        margin-top: -100px;
+        @include font-style (qanelasRegular, 15px, 0px);
+        
+        &:hover {
+            background-color: $colorTurquoise;
+        }
+        &:active {
+            background-color: $colorTurquoise;
+        }
     }
 
-    &-link {
+    &__cta {
+
+            &--orange {
+            background-color: $colorOrange;
+            text-align: center;
+            padding: 35px 15px 34px 15px;
+            width: 100%;
+                a {
+                    color: $colorWhite;
+                    text-decoration: none;
+                    height: 30px;
+                }
+                
+                &:hover {
+                    background-color: $colorBlack;
+                }
+                
+                h3 {
+                    margin: 0px;
+                }
+            }
+
+            &--black {
+                padding: 35px 15px 34px 15px;
+                width: 100%;
+                background-color: $colorBlack;
+
+                a {
+                    color: $colorWhite;
+                    text-decoration: none;
+                    height: 30px;
+                }
+                
+                &:hover {
+                    background-color: $colorOrange;
+                }
+                
+                h3 {
+                    margin: 0px;
+                }
+            }
+    }
+
+    &__header--search {
+        display: inline;
+        padding: 8px;
+        padding-left: 20px;
+        margin-top: -5px;
+        width: 300px;
+        cursor: pointer;
+        border-radius: 40px;
+        border: 0px;
+        text-align: left;
+        @include font-style (qanelasRegular, 17px, 25px);
+        @media all and (max-width: 550px) {
+            width: 100%;
+            margin-top: 10px;
+    }
+
+    &--link {
         text-decoration: none;
     }
 
+    
+}
 }
   
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -32,38 +99,16 @@
     color: $colorBlack;
 }
 
-.btn__tag {
-    padding: 5px 15px 5px 15px;
-    color: $colorBlack;
-    background-color: $colorGrey;
-    cursor: pointer;
-    border-radius: 40px;
-    border: 0px;
-    text-align: center;
-    text-decoration: none;
-    margin-top: -100px;
-    @include font-style (qanelasRegular, 15px, 0px);
-    
-    &:hover {
-        background-color: $colorTurquoise;
-    }
-    &:active {
-        background-color: $colorTurquoise;
-    }
-}
 
-.btn__callaction--white {
-    text-decoration: none;
-    color: $colorWhite;
-    &:hover {
-        color: $colorWhite;
-    }
-}
 
-.callaction__orange {
-    padding: $padding-small $padding-small;
+
+
+
+
+.callaction__orange--event {
     background-color: $colorOrange;
-    text-align: center;
+    text-align: right;
+    padding: 35px 15px 34px 15px;
    
     & a{
     color: $colorWhite;
@@ -82,7 +127,27 @@
 }
 
 .callaction__black {
-    padding: $padding-small $padding-small;
+    padding: 35px 15px 34px 15px;
+    background-color: $colorBlack;
+
+    & a{
+        color: $colorWhite;
+        text-decoration: none;
+        height: 30px;
+        }
+        width: 100%;
+   
+    &:hover {
+        background-color: $colorOrange;
+    }
+    
+    & h3 {
+        margin: 0px;
+    }
+}
+
+.callaction__orange--ticket {
+    padding: 35px 15px 34px 15px;
     background-color: $colorBlack;
 
     & a{

@@ -1,55 +1,84 @@
 .footer {
     background-color: $colorGrey;
-}
 
-.footer__content {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    padding: $unit;
+    &__content {
+        @media all and (min-width: 760px) {
+            display: flex;
+        }
+        margin-left: auto;
+        margin-right: auto;
+        padding: $unit-medium;
+    }
+
+    &__link {
+        display: grid;
+        @include font-style (qanelasRegular, 15px, 30px);
+        text-decoration: none;
+        color: $colorBlack;
+        &:hover {
+            color: $colorOrange;
+        }
+    }
+
+    &__iconos {
+        @media all and (min-width: 760px) {
+            display: flex;
+        }
+        padding: $unit-medium;
+
+        &--rrss {
+            a{
+                text-decoration: none;
+            }
+            padding-right: 5px;
+        }
+    }
+
+    &__icon {
+
+        &--rrss {
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+
+
+
+    &__column {
+        @media all and (max-width: 760px) {
+            padding-top: $unit-medium;
+        }
+    }
+
+    &__logo {
+        justify-content: flex-end;
+    }
+
+    &__logo--link{
+        @include font-style (qanelasRegular, 12px, 25px);
+        padding-left: $padding-small;
+        padding-right: $padding-small;
+    }
+
 }
+   
 
 .grid__cell--20 {
     justify-content: center;
 }
 
-.footer__link {
-    display: grid;
-    @include font-style (qanelasRegular, 15px, 30px);
-    text-decoration: none;
-    color: $colorBlack;
-    &:hover {
-        color: $colorOrange;
-    }
-}
+
 
 //iconos
-.footer__iconos {
-    display: flex;
-}
-
 a svg:hover #icono--hover{
     fill: $colorOrange;
 }
 
-.footer__icon--rrss {
-    text-decoration: none;
-    padding-right: 5px;
-}
 
-.footer__iconos {
-    display: flex;
-    padding-left: $unit;
-    padding-right: $unit;
-}
 
-.footer__logo {
-    justify-content: flex-end;
-}
 
-.footer__logo--link{
-    @include font-style (qanelasRegular, 12px, 25px);
-    padding-left: $padding-small;
-    padding-right: $padding-small;
-}
+
+
+
 

@@ -22,3 +22,11 @@ p {
     @include font-style (qanelasRegular, 17px, 30px);
 }
 
+.event__title {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.event__location {
+    color: $colorOrange;
+}

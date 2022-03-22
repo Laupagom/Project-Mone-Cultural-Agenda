@@ -8,77 +8,103 @@
     padding: 12px 10px;
     border-radius: 50px;
 }
-
-.card__tumb {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../resources/img/card/card-1.png);
-    background-repeat: no-repeat;
-    height: 100px;
-    padding: 50px;
-    border-radius: 20px 20px 0px 0px;
-    &--category {
-        height: 20px;
+.card {
+    
+    &__tumb {
         display: flex;
         align-items: center;
         justify-content: center;
         background-image: url(../resources/img/card/card-1.png);
         background-repeat: no-repeat;
-        height: 20px;
+        height: 100px;
         padding: 50px;
         border-radius: 20px 20px 0px 0px;
+        &--category {
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url(../resources/img/card/card-1.png);
+            background-repeat: no-repeat;
+            height: 20px;
+            padding: 50px;
+            border-radius: 20px 20px 0px 0px;
+        }
+
+        &--ticket {
+            height: 20px;
+            display: block;
+            align-items: center;
+            justify-content: center;
+            background-color: $colorGrey;
+            height: 20px;
+            padding: 30px;
+            border-radius: 20px 20px 0px 0px;
+        }
     }
-}
 
-.card__tumb img {
-    max-width: 100%;
-    max-height: 100%;
-}
+    &__tumb img {
+        max-width: 100%;
+        max-height: 100%;
+    }
 
-.card__details {
-    padding: 0px;
-    background-color: $colorGrey;
-}
+    &__ticket {
+        background-color: $colorGrey;
+        border-radius: 20px 20px 0px 0px;
+        padding: 30px;
+    }
 
-.card__date {
-    display: block;
-    @include font-style (qanelasRegular, 12px, 0px);
-    color: $colorWhite;
-    background-color: $colorBlack;
-    text-transform: uppercase;
-    padding: 5px;
-    padding: 10px 15px 10px 15px;
-}
-
-.card__title {
-    &--category {
-        margin-top: 0px;
-        line-height: 60px;
-        font-family: whyte;
-        font-size: 20px;
+    &__title--link {
+        background-color: $colorBlack;
+        display: block;
+        margin-top: 30px;
+        @include font-style (whyte, 20px, 0px);
+        color: $colorWhite;
         padding: 0px 15px 0px 15px;
     }
 
-    display: block;
-    margin-top: 30px;
-    @include font-style (whyte, 20px, 0px);
-    color: $colorBlack;
-    padding: 0px 15px 0px 15px;
-}
+    &__details {
+        padding: 0px;
+        background-color: $colorGrey;
+        p {
+            font-size: 15px;
+            line-height: 25px;
+            color: $colorOrange;
+            padding: 0px 15px 0px 15px;
+            padding-bottom: 10px;
+            margin-bottom: 0px;
+        }
+    }
 
-.card__details p {
-    font-size: 15px;
-    line-height: 25px;
-    color: $colorOrange;
-    padding: 0px 15px 0px 15px;
-    padding-bottom: 10px;
-    margin-bottom: 0px;
-}
+    &__date {
+        display: block;
+        @include font-style (qanelasRegular, 12px, 0px);
+        color: $colorWhite;
+        background-color: $colorBlack;
+        text-transform: uppercase;
+        padding: 5px;
+        padding: 10px 15px 10px 15px;
+    }
 
-.card__link {
-    text-decoration: none;
-    color: $colorBlack;
+    &__title {
+        &--category {
+            margin-top: 0px;
+            line-height: 60px;
+            font-family: whyte;
+            font-size: 20px;
+            padding: 0px 15px 0px 15px;
+        }
+        display: block;
+        margin-top: 30px;
+        @include font-style (whyte, 20px, 0px);
+        color: $colorBlack;
+        padding: 0px 15px 0px 15px;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: $colorBlack;
+    }
 }
 
 
