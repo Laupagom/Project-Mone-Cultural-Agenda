@@ -596,7 +596,7 @@ p {
   color: #FF3D00;
 }
 .footer__iconos {
-  padding: 30px;
+  padding: 0px 30px;
 }
 @media all and (min-width: 760px) {
   .footer__iconos {
@@ -647,24 +647,24 @@ a svg:hover #icono--hover {
   background-image: url(../resources/img/rectangle-331.jpeg);
   background-repeat: no-repeat;
 }
-
 .header__logo {
+  position: fixed;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 30px;
 }
-@media all and (max-width: 750px) {
-  .header__logo {
-    display: block;
-  }
-}
-
 .header__logo--img {
   min-width: 150px;
   width: 100px;
   height: 25px;
   padding-right: 20px;
+}
+@media all and (max-width: 750px) {
+  .header__logo {
+    display: block;
+  }
 }
 
 .menu__links {
