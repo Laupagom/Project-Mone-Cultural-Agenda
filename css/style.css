@@ -27,9 +27,15 @@ img {
   padding: 30px;
 }
 .content__widht--events {
-  max-width: 1190px;
+  max-width: 1090px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media all and (max-width: 1100px) {
+  .margin-mobile {
+    margin: 15px 15px 60px 15px;
+  }
 }
 
 /*utilización
@@ -165,6 +171,7 @@ p {
 .event__location {
   color: #FF3D00;
   margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 @font-face {
@@ -205,11 +212,71 @@ p {
 .btn__tag:active {
   background-color: #18FFFF;
 }
+.btn__tag--event {
+  padding: 10px;
+}
+.btn__tag--event--compartir {
+  border: #000000 2px solid;
+  padding: 15px;
+  background-color: #ffffff;
+  cursor: pointer;
+  border-radius: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 15px;
+  font-family: qanelasRegular;
+  font-size: 15px;
+  line-height: 0px;
+}
+@media all and (max-width: 1100px) {
+  .btn__tag--event--compartir {
+    margin-bottom: 30px;
+  }
+}
+.btn__tag--event--compartir:hover {
+  background-color: #18FFFF;
+  border: #18FFFF 2px solid;
+}
+.btn__tag--event--like {
+  border: #18FFFF 2px solid;
+  padding: 15px;
+  background-color: #18FFFF;
+  cursor: pointer;
+  border-radius: 40px;
+  text-align: center;
+  text-decoration: none;
+  font-family: qanelasRegular;
+  font-size: 15px;
+  line-height: 0px;
+}
+@media all and (max-width: 1100px) {
+  .btn__tag--event--like {
+    margin-bottom: 30px;
+  }
+}
+.btn__tag--event--like:hover {
+  background-color: #ffffff;
+  border: #000000 2px solid;
+}
 .btn__cta--orange {
   background-color: #FF3D00;
   text-align: center;
   padding: 35px 15px 34px 15px;
   width: 100%;
+}
+.btn__cta--orange--ticket {
+  text-align: right;
+  padding: 15px 30px 12px 15px;
+  width: 100%;
+  background-color: #FF3D00;
+  margin-bottom: 60px;
+}
+.btn__cta--orange--ticket a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.btn__cta--orange--ticket:hover {
+  background-color: #000000;
 }
 .btn__cta--orange a {
   color: #ffffff;
@@ -419,6 +486,19 @@ p {
   margin-top: 0px;
 }
 
+a svg:hover #icono--hover {
+  fill: #FF3D00;
+}
+
+.compartir,
+.like {
+  margin-bottom: -4px;
+}
+
+a svg:hover #icono--hover-like {
+  fill: #ffffff;
+}
+
 .tag {
   position: absolute;
   left: 20px;
@@ -618,10 +698,6 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-a svg:hover #icono--hover {
-  fill: #FF3D00;
 }
 
 .header__main {

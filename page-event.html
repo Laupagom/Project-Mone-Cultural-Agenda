@@ -9,72 +9,82 @@
 </head>
 <body>
     <header class="header__main">
-            <div class="header__logo" id="nav">
-                <img class="header__logo--img"
-                    src="resources/logo/logo-mone-eventos-en-valencia.png"
-                    onmouseover="this.src='resources/logo/logo-hover-mone-eventos-en-valencia.png'"
-                    onmouseout="this.src='resources/logo/logo-mone-eventos-en-valencia.png'"
-                    />
+        <div class="header__logo" id="nav">
+            <img class="header__logo--img"
+                src="resources/logo/logo-mone-eventos-en-valencia.png"
+                onmouseover="this.src='resources/logo/logo-hover-mone-eventos-en-valencia.png'"
+                onmouseout="this.src='resources/logo/logo-mone-eventos-en-valencia.png'"
+            />
 
-                <a class="btn__header--search--link" href="buscador.html">
-                    <button href="buscador.html" class="btn__header--search" type="button">
-                            Busca un evento en Valencia
-                    </button> 
-                </a>
+            <a class="btn__header--search--link" href="buscador.html">
+                <button href="buscador.html" class="btn__header--search" type="button">
+                        Busca un evento en Valencia
+                </button> 
+            </a>
                 
-                <section class="menu__links">
-                    <a href="#">Eventos</a>
-                    <a href="#">Noticias</a>
-                    <a href="#">Iniciar sesión</a>
-                </section>
+            <section class="menu__links">
+                <a href="#">Eventos</a>
+                <a href="#">Noticias</a>
+                <a href="#">Iniciar sesión</a>
+            </section>
 
-                <nav role='navigation' id="mobile-nav">
-                    <div class="menu__toggle">
+            <nav role='navigation' id="mobile-nav">
+                <div class="menu__toggle">
 
-                        <input type="checkbox" />
+                    <input type="checkbox" />
 
-                        <span class="menu_lines"></span>
-                        <span class="menu_lines"></span>
-                        <span class="menu_lines"></span>
+                    <span class="menu_lines"></span>
+                    <span class="menu_lines"></span>
+                    <span class="menu_lines"></span>
 
-                        <ul class="menu">
-                            <a class="menu__link" href="#">
-                                <li>Eventos</li>
-                            </a>
-                            <a class="menu__link" href="#">
-                                <li>Noticias</li>
-                            </a>
-                            <a class="menu__link" href="#">
-                                <li>mone Agenda</li>
-                            </a>
-                            <a class="menu__link" href="#">
-                                <li>Contacto</li>
-                            </a>
-                            <a class="menu__link" href="#" target="_blank">
-                                <li>Inicio sesión</li>
-                            </a>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
+                    <ul class="menu">
+                        <a class="menu__link" href="#">
+                            <li>Eventos</li>
+                        </a>
+                        <a class="menu__link" href="#">
+                            <li>Noticias</li>
+                        </a>
+                        <a class="menu__link" href="#">
+                            <li>mone Agenda</li>
+                        </a>
+                        <a class="menu__link" href="#">
+                            <li>Contacto</li>
+                        </a>
+                        <a class="menu__link" href="#" target="_blank">
+                            <li>Inicio sesión</li>
+                        </a>
+                    </ul>
+                </div>
+            </nav>
+        </div>
         </div>
     </header>
 
     
     <main>
+        <div class="btn__cta--orange--ticket"><a class="btn__cta--white" href=""><h3>vinga, mone! →</h3></a></div>    
 
-        <section class="content__widht--events grid">
+        <section class="content__widht--events grid margin-mobile">
             <div class="grid__cell--80">
                 <p>Mar, 17 Feb 2022 / 17:00h - 20:00h</p>
                 <h1 class="event__title">Festival de les Arts</h1>
                 <p class="event__location">◉ Ciudad de las Artes y las CIencias</p>
             </div>
             <div class="grid__cell--20">
-                <p class="event__location">◉ Ciudad de las Artes y las CIencias</p>
-            </div>
+                <a class="btn__tag--event--compartir" href="#">
+                    <svg class="compartir" width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.125 14.08C14.3967 14.08 13.745 14.38 13.2467 14.85L6.41375 10.7C6.46167 10.47 6.5 10.24 6.5 10C6.5 9.76 6.46167 9.53 6.41375 9.3L13.17 5.19C13.6875 5.69 14.3679 6 15.125 6C15.8875 6 16.6188 5.68393 17.1579 5.12132C17.6971 4.55871 18 3.79565 18 3C18 2.20435 17.6971 1.44129 17.1579 0.87868C16.6188 0.316071 15.8875 0 15.125 0C14.3625 0 13.6312 0.316071 13.0921 0.87868C12.5529 1.44129 12.25 2.20435 12.25 3C12.25 3.24 12.2883 3.47 12.3362 3.7L5.58 7.81C5.0625 7.31 4.38208 7 3.625 7C2.8625 7 2.13124 7.31607 1.59207 7.87868C1.0529 8.44129 0.75 9.20435 0.75 10C0.75 10.7956 1.0529 11.5587 1.59207 12.1213C2.13124 12.6839 2.8625 13 3.625 13C4.38208 13 5.0625 12.69 5.58 12.19L12.4033 16.34C12.3554 16.55 12.3267 16.77 12.3267 17C12.3267 18.61 13.5821 19.91 15.125 19.91C16.6679 19.91 17.9233 18.61 17.9233 17C17.9233 16.2256 17.6285 15.4829 17.1037 14.9352C16.5789 14.3876 15.8672 14.08 15.125 14.08V14.08Z" fill="black"/>
+                    </svg>
+                </a>
+                <a class="btn__tag--event--like" href="#">
+                    <svg class="like" width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.1372 15.55L10.0413 15.65L9.93593 15.55C5.38384 11.24 2.37467 8.39 2.37467 5.5C2.37467 3.5 3.81217 2 5.72884 2C7.20467 2 8.64217 3 9.15009 4.36H10.9326C11.4405 3 12.878 2 14.3538 2C16.2705 2 17.708 3.5 17.708 5.5C17.708 8.39 14.6988 11.24 10.1372 15.55ZM14.3538 0C12.6863 0 11.0859 0.81 10.0413 2.08C8.99676 0.81 7.39634 0 5.72884 0C2.77717 0 0.458008 2.41 0.458008 5.5C0.458008 9.27 3.71634 12.36 8.65176 17.03L10.0413 18.35L11.4309 17.03C16.3663 12.36 19.6247 9.27 19.6247 5.5C19.6247 2.41 17.3055 0 14.3538 0Z" fill="black"/>
+                    </svg>       
+                </a>
+            </div>          
         </section>
 
-        <section class="content__widht--events grid">
+        <section class="content__widht--events grid margin-mobile">
             <div class="grid__cell--80">
                 <h3>Description</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus at sapien at convallis. Donec vulputate auctor fermentum. Donec consectetur urna id sodales gravida. Aliquam erat volutpat. Quisque dictum, magna sit amet faucibus fermentum, augue massa dapibus lacus, vitae volutpat velit dui in lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus at sapien at convallis. Donec vulputate auctor fermentum. Donec consectetur urna id sodales gravida. Aliquam erat volutpat. Quisque dictum, magna sit amet faucibus fermentum, augue massa dapibus lacus, vitae volutpat velit dui in lacus. </p>
@@ -86,41 +96,7 @@
         </section>
 
         <section class="content__widht--events grid">
-
-                    <section class="card__ticket grid__cell--50">
-                        <div class="card__ticket--content">
-                            <h3>Abono Vip <div class="card__ticket--price">74,50€</div></h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates rerum, totam ducimus repellendus incidunt amet, harum hic tenetur ad cum doloribus mollitia voluptate. Voluptas dolor non provident sit rerum distinctio?</p>
-                        </div>
-                        <div class="btn__cta--black--ticket"><a class="btn__cta--white" href=""><h3>tickets →</h3></a></div>    
-                    </section> 
-                    
-                    <section class="card__ticket grid__cell--50">
-                        <div class="card__ticket--content">
-                            <h3>Abono Vip <div class="card__ticket--price">74,50€</div></h3>
-                            
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates rerum, totam ducimus repellendus incidunt amet, harum hic tenetur ad cum doloribus mollitia voluptate. Voluptas dolor non provident sit rerum distinctio?</p>
-                        </div>
-                        <div class="btn__cta--black--ticket"><a class="btn__cta--white" href=""><h3>tickets →</h3></a></div>    
-                    </section> 
-
-                    <section class="card__ticket grid__cell--50">
-                        <div class="card__ticket--content">
-                            <h3>Abono Vip <div class="card__ticket--price">74,50€</div></h3>
-                            
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates rerum, totam ducimus repellendus incidunt amet, harum hic tenetur ad cum doloribus mollitia voluptate. Voluptas dolor non provident sit rerum distinctio?</p>
-                        </div>
-                        <div class="btn__cta--black--ticket"><a class="btn__cta--white" href=""><h3>tickets →</h3></a></div>    
-                    </section> 
-
-                    <section class="card__ticket grid__cell--50">
-                        <div class="card__ticket--content">
-                            <h3>Abono Vip <div class="card__ticket--price">74,50€</div></h3>
-                            
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates rerum, totam ducimus repellendus incidunt amet, harum hic tenetur ad cum doloribus mollitia voluptate. Voluptas dolor non provident sit rerum distinctio?</p>
-                        </div>
-                        <div class="btn__cta--black--ticket"><a class="btn__cta--white" href=""><h3>tickets →</h3></a></div>    
-                    </section> 
+ 
                     <section class="card__ticket grid__cell--100">
                         <div class="card__ticket--content">
                             <h3>Abono Vip <div class="card__ticket--price">74,50€</div></h3>
@@ -129,26 +105,212 @@
                         </div>
                         <div class="btn__cta--black--ticket"><a class="btn__cta--white" href=""><h3>tickets →</h3></a></div>    
                     </section> 
+
+                    <section class="card__ticket grid__cell--100">
+                        <div class="card__ticket--content">
+                            <h3>Abono Vip <div class="card__ticket--price">74,50€</div></h3>
+                            
+                            <p class=" grid grid__cell--80">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates rerum, totam ducimus repellendus incidunt amet, harum hic tenetur ad cum doloribus mollitia voluptate. Voluptas dolor non provident sit rerum distinctio?</p>
+                        </div>
+                        <div class="btn__cta--black--ticket"><a class="btn__cta--white" href=""><h3>tickets →</h3></a></div>    
+                    </section> 
+
+                    <section class="card__ticket grid__cell--100">
+                        <div class="card__ticket--content">
+                            <h3>Abono Vip <div class="card__ticket--price">74,50€</div></h3>
+                            
+                            <p class=" grid grid__cell--80">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates rerum, totam ducimus repellendus incidunt amet, harum hic tenetur ad cum doloribus mollitia voluptate. Voluptas dolor non provident sit rerum distinctio?</p>
+                        </div>
+                        <div class="btn__cta--black--ticket"><a class="btn__cta--white" href=""><h3>tickets →</h3></a></div>    
+                    </section> 
+
         </section>
 
+        <section class="content__widht--events grid margin-mobile">
+            <div class="grid__cell--80">
+                <h3>Description</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus at sapien at convallis. Donec vulputate auctor fermentum. Donec consectetur urna id sodales gravida. Aliquam erat volutpat. Quisque dictum, magna sit amet faucibus fermentum, augue massa dapibus lacus, vitae volutpat velit dui in lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus at sapien at convallis. Donec vulputate auctor fermentum. Donec consectetur urna id sodales gravida. Aliquam erat volutpat. Quisque dictum, magna sit amet faucibus fermentum, augue massa dapibus lacus, vitae volutpat velit dui in lacus. </p>
+            </div>
+            <div class="grid__cell--20">
+                <h3>Description</h3>
+                <p>Aliquam erat volutpat. Aliquam erat volutpat. Quisque dictum, magna sit amet faucibus fermentum, augue massa dapibus lacus, vitae volutpat velit dui in lacus. </p>
+            </div>
+        </section>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12322.55875455147!2d-0.3504904!3d39.4548751!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x62eb4407a5ebf894!2sCiudad%20de%20las%20Artes%20y%20las%20Ciencias!5e0!3m2!1ses!2ses!4v1648033095832!5m2!1ses!2ses" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+        <!-- Swiper big -->
+	<div><h3>Eventos destacados</h3></div>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        
+        <section class="swiper-slide"> 
+            <a class="card__link" href="buscador.html">
+                <div class="tag">Conciertos</div>
+                    <div class="card__tumb"></div>
+                    <div class="card__details">
+                        <span class="card__date">Mar, 17 Feb 2022 / 17:00h - 20:00h</span>
+                        <div class="card__title">Festival de les Arts</div>
+                        <p>◉ Ciudad de las artes y las ciencias</p>
+                </div>
+            </a>
+        </section>
+
+        <section class="swiper-slide"> 
+            <a class="card__link" href="buscador.html">
+                <div class="tag">Conciertos</div>
+                    <div class="card__tumb"></div>
+                    <div class="card__details">
+                        <span class="card__date">Mar, 17 Feb 2022 / 17:00h - 20:00h</span>
+                        <div class="card__title">Festival de les Arts</div>
+                        <p>◉ Ciudad de las artes y las ciencias</p>
+                </div>
+            </a>
+        </section>
+
+        <section class="swiper-slide"> 
+            <a class="card__link" href="buscador.html">
+                <div class="tag">Conciertos</div>
+                    <div class="card__tumb"></div>
+                    <div class="card__details">
+                        <span class="card__date">Mar, 17 Feb 2022 / 17:00h - 20:00h</span>
+                        <div class="card__title">Festival de les Arts</div>
+                        <p>◉ Ciudad de las artes y las ciencias</p>
+                </div>
+            </a>
+        </section>
+
+        <section class="swiper-slide"> 
+            <a class="card__link" href="buscador.html">
+                <div class="tag">Conciertos</div>
+                    <div class="card__tumb"></div>
+                    <div class="card__details">
+                        <span class="card__date">Mar, 17 Feb 2022 / 17:00h - 20:00h</span>
+                        <div class="card__title">Festival de les Arts</div>
+                        <p>◉ Ciudad de las artes y las ciencias</p>
+                </div>
+            </a>
+        </section>
+
+        <section class="swiper-slide"> 
+            <a class="card__link" href="buscador.html">
+                <div class="tag">Conciertos</div>
+                    <div class="card__tumb"></div>
+                    <div class="card__details">
+                        <span class="card__date">Mar, 17 Feb 2022 / 17:00h - 20:00h</span>
+                        <div class="card__title">Festival de les Arts</div>
+                        <p>◉ Ciudad de las artes y las ciencias</p>
+                </div>
+            </a>
+        </section>
+
+        <section class="swiper-slide"> 
+            <a class="card__link" href="buscador.html">
+                <div class="tag">Conciertos</div>
+                    <div class="card__tumb"></div>
+                    <div class="card__details">
+                        <span class="card__date">Mar, 17 Feb 2022 / 17:00h - 20:00h</span>
+                        <div class="card__title">Festival de les Arts</div>
+                        <p>◉ Ciudad de las artes y las ciencias</p>
+                </div>
+            </a>
+        </section>
+
+        <section class="swiper-slide"> 
+            <a class="card__link" href="buscador.html">
+                <div class="tag">Conciertos</div>
+                    <div class="card__tumb"></div>
+                    <div class="card__details">
+                        <span class="card__date">Mar, 17 Feb 2022 / 17:00h - 20:00h</span>
+                        <div class="card__title">Festival de les Arts</div>
+                        <p>◉ Ciudad de las artes y las ciencias</p>
+                </div>
+            </a>
+        </section>
+
+        <section class="swiper-slide"> 
+            <a class="card__link" href="buscador.html">
+                <div class="tag">Conciertos</div>
+                    <div class="card__tumb"></div>
+                    <div class="card__details">
+                        <span class="card__date">Mar, 17 Feb 2022 / 17:00h - 20:00h</span>
+                        <div class="card__title">Festival de les Arts</div>
+                        <p>◉ Ciudad de las artes y las ciencias</p>
+                </div>
+            </a>
+        </section>
+
+        <section class="swiper-slide"> 
+            <a class="card__link" href="buscador.html">
+                <div class="tag">Conciertos</div>
+                    <div class="card__tumb"></div>
+                    <div class="card__details">
+                        <span class="card__date">Mar, 17 Feb 2022 / 17:00h - 20:00h</span>
+                        <div class="card__title">Festival de les Arts</div>
+                        <p>◉ Ciudad de las artes y las ciencias</p>
+                </div>
+            </a>
+        </section>
+
+        <section class="swiper-slide"> 
+            <a class="card__link" href="buscador.html">
+                <div class="tag">Conciertos</div>
+                    <div class="card__tumb"></div>
+                    <div class="card__details">
+                        <span class="card__date">Mar, 17 Feb 2022 / 17:00h - 20:00h</span>
+                        <div class="card__title">Festival de les Arts</div>
+                        <p>◉ Ciudad de las artes y las ciencias</p>
+                </div>
+            </a>
+        </section>
+
+        <section class="swiper-slide"> 
+            <a class="card__link" href="buscador.html">
+                <div class="tag">Conciertos</div>
+                    <div class="card__tumb"></div>
+                    <div class="card__details">
+                        <span class="card__date">Mar, 17 Feb 2022 / 17:00h - 20:00h</span>
+                        <div class="card__title">Festival de les Arts</div>
+                        <p>◉ Ciudad de las artes y las ciencias</p>
+                </div>
+            </a>
+        </section>
+
+        <section class="swiper-slide"> 
+            <a class="card__link" href="buscador.html">
+                <div class="tag">Conciertos</div>
+                    <div class="card__tumb"></div>
+                    <div class="card__details">
+                        <span class="card__date">Mar, 17 Feb 2022 / 17:00h - 20:00h</span>
+                        <div class="card__title">Festival de les Arts</div>
+                        <p>◉ Ciudad de las artes y las ciencias</p>
+                </div>
+            </a>
+        </section>
+
+    </div>
+    <div class="swiper-button-next"><h3 class="swiper__arrow">→</h3></div>
+    <div class="swiper-button-prev"><h3 class="swiper__arrow">←</h3></div>
+    </div>
         
         <footer class="footer">
 
-            <div class="btn__cta--orange grid__cell--100"><a class="btn__callaction--white" href=""><h3><a href="#">info@moneagenda.com</a></h3></a></div>
-
+            <div class="btn__cta--orange grid__cell--100"><a class="btn__cta--white" href=""><h3><a href="#">info@moneagenda.com</a></h3></a></div>
+    
             <section class="footer__content grid">
                 <div class="grid__cell--60">
                     <img src="resources/logo/logo-mone-footer-1.png" alt="">
                 </div>
-
-                <div class="grid__cell--20">
+    
+                <div class="footer__column grid__cell--20">
                     <a class="footer__link" href="">Agenda de eventos</a>
                     <a class="footer__link" href="">Noticias</a>
                     <a class="footer__link" href="">Fallas 2022</a>
                     <a class="footer__link" href="">Capital del diseño</a>
                     <a class="footer__link" href="">Año Berlanga</a>
                 </div>
-
+    
                 <div class="grid__cell--20">
                         <a class="footer__link" href="">Conoce mone</a>
                         <a class="footer__link" href="">¿Quiéres montar un evento?</a>
@@ -156,13 +318,13 @@
                         <a class="footer__link" href="">Inicio sesión</a>
                 </div>
             </section>
-
+    
             <section class="footer__iconos  grid">
-                <div class="grid grid__cell--50">
+                <div class="grid__cell--50">
                     <a class="footer__icon--rrss" href="">
                         <svg width="35" height="35" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_371_438)">
-                            <path id= "icono--hover" d="M22.7647 45.5294C35.3373 45.5294 45.5294 35.3373 45.5294 22.7647C45.5294 10.1921 35.3373 0 22.7647 0C10.1921 0 0 10.1921 0 22.7647C0 35.3373 10.1921 45.5294 22.7647 45.5294Z" fill="black"/>
+                            <path id= "icon--hover" d="M22.7647 45.5294C35.3373 45.5294 45.5294 35.3373 45.5294 22.7647C45.5294 10.1921 35.3373 0 22.7647 0C10.1921 0 0 10.1921 0 22.7647C0 35.3373 10.1921 45.5294 22.7647 45.5294Z" fill="black"/>
                             <path d="M19.1867 14.256H26.3315C26.9823 14.2516 27.6277 14.3758 28.2304 14.6214C28.8332 14.8671 29.3814 15.2294 29.8437 15.6876C30.3061 16.1458 30.6733 16.6908 30.9244 17.2913C31.1756 17.8918 31.3056 18.5359 31.307 19.1868V26.3316C31.3145 26.987 31.1909 27.6374 30.9436 28.2445C30.6962 28.8515 30.3299 29.403 29.8664 29.8665C29.4029 30.33 28.8514 30.6963 28.2444 30.9437C27.6373 31.1911 26.9869 31.3146 26.3315 31.3071H19.1867C17.878 31.3042 16.6238 30.7822 15.6994 29.8557C14.775 28.9292 14.2559 27.6739 14.2559 26.3651V19.1868C14.2544 18.5389 14.3809 17.897 14.6282 17.2981C14.8755 16.6992 15.2386 16.1551 15.6968 15.6969C16.155 15.2387 16.6991 14.8756 17.298 14.6283C17.8969 14.381 18.5388 14.2545 19.1867 14.256V14.256ZM19.0078 15.9555C18.1983 15.9555 17.4219 16.2771 16.8494 16.8495C16.277 17.422 15.9554 18.1984 15.9554 19.0079V26.4993C15.9539 26.9016 16.0317 27.3003 16.1843 27.6725C16.3369 28.0448 16.5614 28.3833 16.8448 28.6689C17.1282 28.9544 17.4652 29.1813 17.8363 29.3366C18.2074 29.4919 18.6055 29.5726 19.0078 29.5741H26.4992C27.309 29.5653 28.0832 29.2398 28.6558 28.6671C29.2285 28.0945 29.5541 27.3203 29.5628 26.5104V19.0079C29.5628 18.1954 29.24 17.4162 28.6655 16.8416C28.0909 16.2671 27.3117 15.9443 26.4992 15.9443L19.0078 15.9555ZM27.2148 17.2301C27.4988 17.2341 27.7706 17.3461 27.9751 17.5432C28.1482 17.7492 28.2413 18.0107 28.2372 18.2797C28.2331 18.5488 28.1321 18.8073 27.9527 19.0079C27.8303 19.1571 27.6714 19.272 27.4915 19.3416C27.3115 19.4111 27.1166 19.433 26.9257 19.4049C26.7348 19.3768 26.5545 19.2999 26.4021 19.1815C26.2498 19.063 26.1307 18.9072 26.0564 18.7292C25.9822 18.5511 25.9552 18.3569 25.9782 18.1653C26.0012 17.9737 26.0734 17.7914 26.1878 17.636C26.3021 17.4806 26.4547 17.3574 26.6308 17.2785C26.8068 17.1995 27.0003 17.1675 27.1924 17.1854L27.2148 17.2301ZM22.7423 18.5048C23.731 18.5016 24.6901 18.8415 25.4562 19.4665C26.2222 20.0915 26.7478 20.9629 26.9431 21.9321C27.1384 22.9013 26.9915 23.9082 26.5273 24.7812C26.0631 25.6541 25.3105 26.339 24.3978 26.719C23.4851 27.099 22.4688 27.1506 21.5223 26.865C20.5758 26.5794 19.7576 25.9743 19.2074 25.1529C18.6572 24.3315 18.409 23.3446 18.5052 22.3606C18.6013 21.3766 19.0358 20.4565 19.7346 19.7571C20.5323 18.9586 21.6137 18.5084 22.7423 18.5048V18.5048ZM22.7423 20.2155C22.1495 20.2133 21.5743 20.4168 21.1148 20.7915C20.6553 21.1661 20.3401 21.6885 20.2228 22.2697C20.1056 22.8508 20.1937 23.4546 20.472 23.978C20.7503 24.5015 21.2017 24.9121 21.749 25.1399C22.2963 25.3677 22.9057 25.3985 23.4732 25.227C24.0407 25.0556 24.5312 24.6925 24.8608 24.1998C25.1905 23.707 25.339 23.1152 25.2809 22.5252C25.2228 21.9352 24.9619 21.3836 24.5425 20.9646C24.3104 20.7284 24.0338 20.5406 23.7286 20.412C23.4234 20.2834 23.0958 20.2166 22.7647 20.2155H22.7423Z" fill="white"/>
                             </g>
                             <defs>
@@ -172,7 +334,7 @@
                             </defs>
                         </svg>      
                     </a>
-
+    
                     <a class="footer__icon--rrss" href="">
                         <svg width="35" height="35" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_371_441)">
@@ -186,7 +348,7 @@
                             </defs>
                         </svg>   
                     </a>
-
+    
                     <a class="footer__icon--rrss" href="">
                         <svg width="35" height="35" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_371_444)">
@@ -200,7 +362,7 @@
                             </defs>
                         </svg>
                     </a>
-
+    
                     <a class="footer__icon--rrss" href="">
                         <svg width="35" height="35" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_371_447)">
@@ -214,7 +376,7 @@
                             </defs>
                         </svg>   
                     </a>
-
+    
                     <a class="footer__icon--rrss" href="">
                         <svg width="35" height="35" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_371_450)">
@@ -229,7 +391,7 @@
                         </svg>       
                     </a>
                 </div>
-
+    
                 <div class="grid footer__logo grid__cell--50">
                     <a class="footer__logo--link" href="#"><img src="resources/logo-footer/logo-f1.png" alt=""></a>
                     <a class="footer__logo--link" href="#"><img src="resources/logo-footer/logo-f2.png" alt=""></a>
@@ -250,5 +412,51 @@
             </section>
         </footer>
 </main>
+
+ <!-- Swiper JS -->
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+ <!-- Initialize Swiper -->
+ <script>
+   var swiper2 = new Swiper(".mySwiper", {
+     slidesPerView: 4,
+     spaceBetween: 15,
+     pagination: { 
+       clickable: true,
+     },
+   });
+ 
+ </script>
+ <script>
+     var swiper = new Swiper(".mySwiper", {
+       slidesPerView: 3,
+       spaceBetween: 15,
+       slidesPerGroup: 3,
+       loop: true,
+       loopFillGroupWithBlank: true,
+       pagination: {
+         el: ".swiper-pagination",
+         clickable: true,
+       },
+       navigation: {
+         nextEl: ".swiper-button-next",
+         prevEl: ".swiper-button-prev",
+       },
+       breakpoints: {
+       280: {
+         slidesPerView: 1,
+         spaceBetween: 15,
+       },
+       768: {
+         slidesPerView: 2,
+         spaceBetween: 15,
+       },
+       1280: { 
+         slidesPerView: 3,
+         spaceBetween: 15,
+       },
+     },
+     });
+ </script>
 </body>
 </html>

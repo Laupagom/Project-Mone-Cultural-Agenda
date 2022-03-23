@@ -44,7 +44,6 @@
     }
 
 
-
     &__column {
         @media all and (max-width: 760px) {
             padding-top: $unit-medium;
@@ -70,10 +69,6 @@
 
 
 
-//iconos
-a svg:hover #icono--hover{
-    fill: $colorOrange;
-}
 
 
 

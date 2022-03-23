@@ -1,0 +1,14 @@
+//iconos footer
+a svg:hover #icono--hover{
+    fill: $colorOrange;
+}
+
+.compartir,
+.like {
+    margin-bottom: -4px;
+}
+
+
+a svg:hover #icono--hover-like{
+    fill: $colorWhite;
+}
