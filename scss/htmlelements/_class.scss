@@ -1,0 +1,32 @@
+.class {
+
+    &__color--grey {
+        color: $colorGreyDark;
+    }
+
+    &__margin--top {
+        margin-top:  40px;
+        margin-bottom: 0px;
+    }
+
+    &__margin-details {
+        padding: 0px 25px;
+        border: rgba(128, 128, 128, 0.192) 2px solid;
+        border-radius: 20px;
+    }
+
+    &__align--right {
+        text-align: right;
+    }
+
+    &__padding--right {
+        padding-right: $unit;
+        @media all and (max-width: 1279px) {
+            padding-right: 0px;
+        }
+    }
+
+    &__padding--bottom {
+        padding-bottom: $unit-medium;
+    }
+}

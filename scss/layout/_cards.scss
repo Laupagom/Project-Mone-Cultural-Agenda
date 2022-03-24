@@ -52,9 +52,17 @@
         margin: 15px;
         background-color: $colorGrey;
         border-radius: 20px 20px 0px 0px;
+
+        &--soldout {
+            color: $colorGreyDark;
+            background-color: $colorGrey;
+            border-radius: 20px 20px 0px 0px;
+        }
+
         &--content {
             padding: 20px 30px 10px 30px;
         }
+        
     }
 
     &__title--link {
@@ -113,6 +121,12 @@
         margin-left: auto;
         text-align: right;
         color: $colorOrange;
+
+        &--soldout {
+            margin-left: auto;
+            text-align: right;
+            color: $colorGreyDark;
+        }
     }
     
 }
