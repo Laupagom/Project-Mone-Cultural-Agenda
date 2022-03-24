@@ -1,0 +1,33 @@
+//form payment card
+.row {
+    
+    &.col2 {
+        width: 49%;
+        float: left;
+        margin-bottom: 5px;
+    }
+      
+    &.last {
+        float: right;
+        margin-bottom: 5px;
+    }
+
+    &__contador {
+        width: 25px;
+    }
+
+    &__input {
+        padding: 10px 20px;
+        margin: 5px;
+        width: 100%;
+        border: $colorGrey 2px solid;
+        border-radius: 3px;
+        @include font-style (qanelasRegular, 17px, 30px);
+    }
+
+    
+
+}
+section.row {
+    padding: 15px;
+}

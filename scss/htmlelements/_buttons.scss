@@ -99,6 +99,23 @@
                     &:hover {
                         background-color: $colorBlack;
                     }
+
+                    &--payment {
+                        display: flow-root;
+                        text-align: right;
+                        padding: 15px 30px 12px 15px;
+                        width: 100%;
+                        background-color: $colorOrange;
+
+                        a {
+                            color: $colorWhite;
+                            text-decoration: none;
+                        }
+
+                        &:hover {
+                            background-color: $colorBlack;
+                        }
+                    }
                 }    
 
                 a {
@@ -201,6 +218,12 @@
             color: $colorWhite;
             background-color: $colorBlack;
             border: $colorBlack 2px solid;
+            margin-left: $margin-medium;
+
+            @media all and (max-width: 1279px) {
+            margin-top: $unit-medium;
+            }
+
         }
 
         &--right {
@@ -208,7 +231,6 @@
             color: $colorWhite;
             background-color: $colorBlack;
             border: $colorBlack 2px solid;
-            margin-right: $margin-medium;
         }
     }
 }

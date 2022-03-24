@@ -1,40 +1,51 @@
 .container {
-    margin-top: 50px;
+    margin-top: 30px;
+    
   }
   
-  .card-row {
+.card-row {
       text-align: center;
       padding: $margin-medium 0px;
-  }
+}
 
-  #Checkout {
-    z-index: 100001;
+.checkout {
     width: 50%;
     min-width: 300px;
     height: 100%;
     min-height: 100%;
-    background: 0 0 #ffffff;
-    border-radius: 8px;
-    border: 1px solid #dedede;
+    border: 1px solid $colorGrey;
     margin-left: auto;
     margin-right: auto;
     display: block;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.05);
+
+    &__img {
+        border-radius: 20px 20px 0px 0px;
+    }
   }
   
-  #Checkout>h1 {
-    margin: 0;
-    padding: 20px;
-    text-align: center;
-    background: #EEF2F4;
-    color: #5D6F78;
-    font-size: 24px;
-    font-weight: 300;
-    border-bottom: 1px solid #DEDEDE;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-  }
-  
-  #Checkout>form {
-    margin: 0 25px 25px;
-  }
+
+
+.payment {
+ text-align: center;
+ border-radius: 20px;
+
+    &__title {
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+
+    &__date {
+        margin-top: 0px;
+    }
+
+    &__card {
+        background-color: $colorGrey;
+        border-radius: 20px 20px 0px 0px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+    }
+}
  
