@@ -31,11 +31,14 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+.content__widht--card {
+  margin-left: 120px;
+}
 .content__widht--new {
-  max-width: 1290px;
+  max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 60px;
+  padding: 60px 0px 60px 0px;
 }
 
 @media all and (max-width: 1100px) {
@@ -336,7 +339,6 @@ p {
   padding: 3px 30px 1px 1px;
   width: 100%;
   background-color: #000000;
-  margin-bottom: 60px;
 }
 .btn__cta--orange--news a {
   color: #18FFFF;
@@ -713,8 +715,8 @@ section.row {
 
 .tag {
   position: absolute;
-  left: 20px;
-  top: 20px;
+  left: 15px;
+  top: 15px;
   font-family: qanelasRegular;
   font-size: 15px;
   line-height: 0px;
@@ -800,6 +802,7 @@ section.row {
 }
 .card__details {
   padding: 0px;
+  margin-top: -5px;
   background-color: #F2F0F0;
 }
 .card__details p {
@@ -850,6 +853,16 @@ section.row {
   margin-left: auto;
   text-align: right;
   color: #828282;
+}
+.card__img--category {
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  height: 120px;
+}
+.card__img--swiper {
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  height: 200px;
 }
 
 .footer {
@@ -1248,14 +1261,15 @@ section.row {
 }
 @media all and (max-width: 1279px) {
   .swiper {
-    padding: 0px 55px;
+    padding: 0px 0px;
+    width: 95%;
   }
 }
 
 .swiper2 {
-  padding: 0px 80px;
+  padding: 0px 0px;
   overflow: hidden;
-  width: 80%;
+  width: 88%;
 }
 @media all and (max-width: 1279px) {
   .swiper2 {

@@ -1,7 +1,7 @@
 .tag {
     position: absolute;
-    left: 20px;
-    top: 20px;
+    left: 15px;
+    top: 15px;
     @include font-style (qanelasRegular, 15px, 0px);
     background: $colorTurquoise;
     color: $colorBlack;
@@ -43,7 +43,7 @@
         }
 
 
-        
+
 
     }
 
@@ -80,6 +80,7 @@
 
     &__details {
         padding: 0px;
+        margin-top: -5px;
         background-color: $colorGrey;
         p {
             font-size: 15px;
@@ -132,7 +133,22 @@
             color: $colorGreyDark;
         }
     }
-    
+
+    &__img {
+
+        &--category{
+        border-radius: 20px 20px 0px 0px;
+        width: 100%;
+        height: 120px;
+        }
+
+
+        &--swiper{
+            border-radius: 20px 20px 0px 0px;
+            width: 100%;
+            height: 200px;
+        }
+}  
 }
 
 
