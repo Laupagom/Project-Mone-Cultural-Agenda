@@ -78,11 +78,52 @@
 
     &__cta {
 
+            &--orange--left {
+                background-color: $colorOrange;
+                text-align: left;
+                padding: 30px 15px 25px 15px;
+                width: 100%;
+
+                a {
+                    color: $colorWhite;
+                    text-decoration: none;
+                    height: 30px;
+                }
+                
+                &:hover {
+                    background-color: $colorBlack;
+                }
+                
+                h3 {
+                    margin: 0px;
+                }
+            }
+            
             &--orange {
-            background-color: $colorOrange;
-            text-align: center;
-            padding: 35px 15px 34px 15px;
-            width: 100%;
+                background-color: $colorOrange;
+                text-align: center;
+                padding: 30px 15px 25px 15px;
+                width: 100%;
+
+
+                &--news {
+                    margin-top: 1px;
+                    text-align: right;
+                    padding: 3px 30px 1px 1px;
+                    width: 100%;
+                    background-color: $colorBlack;
+                    margin-bottom: $unit;
+
+                    a {
+                        color: $colorTurquoise;
+                        text-decoration: none;
+                    }
+
+                    &:hover {
+                        background-color: $colorOrange;
+                        color: $colorWhite;
+                    }
+                }
                 
                 &--ticket{
                     text-align: right;
@@ -135,7 +176,7 @@
             }
 
             &--black {
-                padding: 35px 15px 34px 15px;
+                padding: 15px 30px 12px 15px;
                 width: 100%;
                 background-color: $colorBlack;
 

@@ -1,0 +1,66 @@
+.new {
+
+    padding: 15px;
+
+    &__link {
+        text-decoration: none;
+        color: $colorBlack;
+    }
+
+    &__date {
+        display: block;
+        @include font-style (qanelasRegular, 12px, 0px);
+        color: $colorBlack;
+        text-transform: uppercase;
+        padding: 5px;
+        padding: 10px 15px 10px 0px;
+    }
+
+    &__details {
+        padding: 20px 5px 10px 5px;
+        background-color: $colorGrey;
+        p {
+            font-size: 15px;
+            line-height: 25px;
+            color: $colorBlack;
+            padding: 0px 15px 0px 15px;
+            padding-bottom: 10px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+
+        &--new2 {
+            padding: 20px 5px 10px 5px;
+            background-color: $colorBlack;
+
+            p {
+                font-size: 15px;
+                line-height: 25px;
+                color: $colorWhite;
+                padding: 0px 15px 0px 15px;
+                padding-bottom: 10px;
+                margin-bottom: 0px;
+                margin-top: 0px;
+            }
+        }
+    }
+
+    &__title {
+        display: block;
+        @include font-style (whyte, 20px, 30px);
+        color: $colorBlack;
+        padding: 0px 0px 0px 15px;
+
+        &--new2 {
+            color: $colorWhite;
+            display: block;
+            @include font-style (whyte, 20px, 30px);
+            padding: 0px 0px 0px 15px;
+        }
+    }
+
+    &__img {
+        border-radius: 20px 20px 0px 0px;
+        margin-bottom: -5px;
+    }
+}

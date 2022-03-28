@@ -1,0 +1,23 @@
+.newsletter {
+    background-image: url(../../resources/img/rectangle-331.jpeg);
+    padding: 60px;
+    text-align: center;
+    display: flex;
+
+    &__claim {
+        margin-bottom: 0px;
+    }
+
+    &__claim2 {
+        margin-top: 0px;
+        color: $colorOrange;
+    }
+
+    &__content {
+        background-color: $colorGrey;
+    }
+
+    &__input {
+        width:70%;
+    }
+}
