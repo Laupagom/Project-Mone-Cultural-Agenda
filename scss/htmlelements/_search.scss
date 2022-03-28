@@ -16,6 +16,7 @@
     }
   
     &__container {
+        padding-bottom: $padding-small;
         position: relative;
         &--searcher {
             padding: 60px;
@@ -26,7 +27,7 @@
     }
   
     &__input {
-        width: 500px;
+        width: 450px;
         border: none;
         background: $colorWhite;
         padding: 20px 30px;
@@ -38,7 +39,7 @@
 
         @media all and (max-width: 550px) {
             border-radius: 0px;
-            width: 350px;
+            width: 300px;
         }
         ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
             color: $colorBlack;
@@ -94,6 +95,34 @@
             right: 0px;
             text-align: right;
             padding-right: 20px;
+        }
+
+        &--newsletter {
+            position: absolute;
+            right: 60px;
+            cursor: pointer;
+            color: $colorWhite;
+            background: $colorOrange;
+                &:hover {
+                    background-color: $colorBlack;
+                }
+            border: 0px;
+            width: 180px;
+            height: 60px;
+            border-radius: 0px;
+            text-align: right;
+            padding-right: 20px;
+            @include font-style (whyte, 20px, 0px);
+            @media all and (max-width: 550px) {
+                margin-bottom: 30px;
+                width: 300px;
+                top: 64px;
+                position: unset;
+                right: 0px;
+                text-align: right;
+                padding-right: 20px;
+        }
+            
         }
         
     }

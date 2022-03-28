@@ -1,6 +1,11 @@
 .newsletter {
     background-image: url(../../resources/img/rectangle-331.jpeg);
     padding: 60px;
+
+    @media all and (max-width: 760px) {
+        padding: 30px;
+    }
+
     text-align: center;
     display: flex;
 
@@ -15,9 +20,30 @@
 
     &__content {
         background-color: $colorGrey;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px;
     }
 
     &__input {
         width:70%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: $unit-medium;
+    }
+
+    &__policity {
+        margin-top: 30px;
+        color: $colorBlack;
+        @include font-style (qanelasRegular, 12px, 25px);
+
+        &--link {
+            color: $colorBlack;
+            
+            &:hover {
+                color: $colorOrange;
+            }
+        }
     }
 }

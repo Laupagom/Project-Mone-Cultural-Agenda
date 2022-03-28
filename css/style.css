@@ -35,6 +35,7 @@ img {
   max-width: 1290px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 60px;
 }
 
 @media all and (max-width: 1100px) {
@@ -503,6 +504,7 @@ p {
   color: #ffffff;
 }
 .search__container {
+  padding-bottom: 15px;
   position: relative;
 }
 .search__container--searcher {
@@ -514,7 +516,7 @@ p {
   }
 }
 .search__input {
-  width: 500px;
+  width: 450px;
   border: none;
   background: #ffffff;
   padding: 20px 30px;
@@ -528,7 +530,7 @@ p {
 @media all and (max-width: 550px) {
   .search__input {
     border-radius: 0px;
-    width: 350px;
+    width: 300px;
   }
 }
 .search__input ::-webkit-input-placeholder {
@@ -582,6 +584,36 @@ p {
     margin-bottom: 30px;
     width: 180px;
     top: 64px;
+    right: 0px;
+    text-align: right;
+    padding-right: 20px;
+  }
+}
+.search__btn--newsletter {
+  position: absolute;
+  right: 60px;
+  cursor: pointer;
+  color: #ffffff;
+  background: #FF3D00;
+  border: 0px;
+  width: 180px;
+  height: 60px;
+  border-radius: 0px;
+  text-align: right;
+  padding-right: 20px;
+  font-family: whyte;
+  font-size: 20px;
+  line-height: 0px;
+}
+.search__btn--newsletter:hover {
+  background-color: #000000;
+}
+@media all and (max-width: 550px) {
+  .search__btn--newsletter {
+    margin-bottom: 30px;
+    width: 300px;
+    top: 64px;
+    position: unset;
     right: 0px;
     text-align: right;
     padding-right: 20px;
@@ -943,6 +975,11 @@ section.row {
   display: -ms-flexbox;
   display: flex;
 }
+@media all and (max-width: 760px) {
+  .newsletter {
+    padding: 30px;
+  }
+}
 .newsletter__claim {
   margin-bottom: 0px;
 }
@@ -952,9 +989,29 @@ section.row {
 }
 .newsletter__content {
   background-color: #F2F0F0;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
 }
 .newsletter__input {
   width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+}
+.newsletter__policity {
+  margin-top: 30px;
+  color: #000000;
+  font-family: qanelasRegular;
+  font-size: 12px;
+  line-height: 25px;
+}
+.newsletter__policity--link {
+  color: #000000;
+}
+.newsletter__policity--link:hover {
+  color: #FF3D00;
 }
 
 @media all and (max-width: 800px) {
@@ -1185,9 +1242,9 @@ section.row {
 }
 
 .swiper {
-  padding: 0px 80px;
+  padding: 0px 0px;
   overflow: hidden;
-  width: 100%;
+  width: 88%;
 }
 @media all and (max-width: 1279px) {
   .swiper {
@@ -1198,7 +1255,7 @@ section.row {
 .swiper2 {
   padding: 0px 80px;
   overflow: hidden;
-  width: 100%;
+  width: 80%;
 }
 @media all and (max-width: 1279px) {
   .swiper2 {
