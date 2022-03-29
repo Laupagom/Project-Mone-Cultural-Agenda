@@ -1040,7 +1040,7 @@ section.row {
 }
 
 .newsletter {
-  background-image: url(../../resources/img/rectangle-331.jpeg);
+  background-image: url(../../resources/img/cabeceras/newsletter-img.jpg);
   padding: 60px;
   text-align: center;
   display: -webkit-box;
@@ -1321,13 +1321,18 @@ section.row {
   margin-top: 30px;
   padding: 0px 0px;
   overflow: hidden;
-  width: 88%;
   z-index: -1;
 }
-@media all and (max-width: 1279px) {
+@media all and (max-width: 1500px) {
   .swiper {
     padding: 0px 0px;
     width: 95%;
+  }
+}
+@media all and (min-width: 1501px) {
+  .swiper {
+    padding: 0px 0px;
+    width: 88%;
   }
 }
 
