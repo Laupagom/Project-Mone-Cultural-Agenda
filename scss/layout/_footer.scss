@@ -1,5 +1,6 @@
 .footer {
     background-color: $colorGrey;
+    margin-top: $unit;
 
     &__content {
         @media all and (min-width: 760px) {

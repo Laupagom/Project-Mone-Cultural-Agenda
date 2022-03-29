@@ -901,6 +901,7 @@ section.row {
 
 .footer {
   background-color: #F2F0F0;
+  margin-top: 60px;
 }
 .footer__content {
   margin-left: auto;
