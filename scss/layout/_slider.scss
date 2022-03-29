@@ -33,7 +33,12 @@
     display: none;
 }
 
+.swiper-title {
+    width: 88%;
+}
+
 .swiper {
+    margin-top: 30px;
     padding: 0px 0px;
     @media all and (max-width: 1279px) {
         padding: 0px 0px;

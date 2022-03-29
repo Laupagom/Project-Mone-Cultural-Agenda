@@ -250,6 +250,20 @@ p {
   font-size: 15px;
   line-height: 0px;
 }
+.btn__tag--hover {
+  padding: 5px 15px 5px 15px;
+  color: #000000;
+  background-color: #18FFFF;
+  cursor: pointer;
+  border-radius: 40px;
+  border: 0px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: -100px;
+  font-family: qanelasRegular;
+  font-size: 15px;
+  line-height: 0px;
+}
 .btn__tag:hover {
   background-color: #18FFFF;
 }
@@ -965,6 +979,11 @@ section.row {
   background-image: url(../resources/img/cabeceras/page-event-les-arts.jpg);
   background-repeat: no-repeat;
 }
+.header__main--conciertos {
+  height: 400px;
+  background-image: url(../resources/img/cabeceras/cabecera-page-events.jpg);
+  background-repeat: no-repeat;
+}
 .header__logo {
   width: 100%;
   display: -webkit-box;
@@ -1279,7 +1298,12 @@ section.row {
   display: none;
 }
 
+.swiper-title {
+  width: 88%;
+}
+
 .swiper {
+  margin-top: 30px;
   padding: 0px 0px;
   overflow: hidden;
   width: 88%;
