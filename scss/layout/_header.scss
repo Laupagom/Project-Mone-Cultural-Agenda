@@ -30,10 +30,8 @@
         @media all and (max-width: 750px) {
             display: block;
         }
-        padding: 30px;
-        
+        padding: 30px;    
     }
-
 }
 
 .menu__links {
@@ -54,16 +52,23 @@
     } 
 }
 
+.sticky .menu__links a{
+    color: $colorBlack; 
+
+    &:hover {
+        color: $colorOrange;
+    } 
+}
+
 .sticky {
-    color: $colorWhite;
     background-color: $colorWhite;
     position: fixed;
     top: 0;
     width: 100%;
-    transition-property: background-color, color, left;
+    transition-property: background-color;
     transition-duration: 0.5s;
-    -webkit-transition-property: background-color, color, left;
+    -webkit-transition-property: background-color;
     -webkit-transition-duration: 0.5s;
-    -o-transition-property: background-color, color, left;
+    -o-transition-property: background-color;
     -o-transition-duration: 0.5s;
 }

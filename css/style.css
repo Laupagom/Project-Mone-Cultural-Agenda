@@ -1025,17 +1025,23 @@ section.row {
   color: #FF3D00;
 }
 
+.sticky .menu__links a {
+  color: #000000;
+}
+.sticky .menu__links a:hover {
+  color: #FF3D00;
+}
+
 .sticky {
-  color: #ffffff;
   background-color: #ffffff;
   position: fixed;
   top: 0;
   width: 100%;
-  transition-property: background-color, color, left;
+  transition-property: background-color;
   transition-duration: 0.5s;
-  -webkit-transition-property: background-color, color, left;
+  -webkit-transition-property: background-color;
   -webkit-transition-duration: 0.5s;
-  -o-transition-property: background-color, color, left;
+  -o-transition-property: background-color;
   -o-transition-duration: 0.5s;
 }
 

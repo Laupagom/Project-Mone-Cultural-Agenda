@@ -59,7 +59,7 @@
             <section class="content__widht search__wrapper">
                 <h3 class="search__claim">¿No tienes plan?</h3>
                 <div class="search__container">
-                  <input type="text" class="search__input" placeholder="Busca tu evento en Valencia">
+                  <input type="text" class="search__input" placeholder="...">
                   <input type="button" value="vinga, mone! ➔" class="search__btn">
                 </div>
             </section>
@@ -655,6 +655,7 @@
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 <!-- Initialize Swiper -->
+<script>setTimeout(function() { document.querySelector('.search__input').focus(); }, 1000);</script>
 <script src="./js/slider2.js"></script>
 <script src="./js/slider.js"></script>
 <script src="./js/menu.js"></script>
