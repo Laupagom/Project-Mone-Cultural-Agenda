@@ -1025,6 +1025,20 @@ section.row {
   color: #FF3D00;
 }
 
+.sticky {
+  color: #ffffff;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition-property: background-color, color, left;
+  transition-duration: 0.5s;
+  -webkit-transition-property: background-color, color, left;
+  -webkit-transition-duration: 0.5s;
+  -o-transition-property: background-color, color, left;
+  -o-transition-duration: 0.5s;
+}
+
 .newsletter {
   background-image: url(../../resources/img/rectangle-331.jpeg);
   padding: 60px;
@@ -1308,6 +1322,7 @@ section.row {
   padding: 0px 0px;
   overflow: hidden;
   width: 88%;
+  z-index: -1;
 }
 @media all and (max-width: 1279px) {
   .swiper {
@@ -1320,6 +1335,7 @@ section.row {
   padding: 0px 0px;
   overflow: hidden;
   width: 88%;
+  z-index: -1;
 }
 @media all and (max-width: 1279px) {
   .swiper2 {

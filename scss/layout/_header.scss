@@ -25,13 +25,13 @@
             height: 25px;    
             padding-right: 20px;
         }
-        //position: fixed;
         width: 100%;
         display: flex;
         @media all and (max-width: 750px) {
             display: block;
         }
         padding: 30px;
+        
     }
 
 }
@@ -52,4 +52,18 @@
     &:hover {
         color: $colorOrange;
     } 
+}
+
+.sticky {
+    color: $colorWhite;
+    background-color: $colorWhite;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition-property: background-color, color, left;
+    transition-duration: 0.5s;
+    -webkit-transition-property: background-color, color, left;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-property: background-color, color, left;
+    -o-transition-duration: 0.5s;
 }
