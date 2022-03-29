@@ -2,8 +2,14 @@
 
     &__main {
         height: 400px;
-        background-image: url(../resources/img/rectangle-331.jpeg);
+        background-image: url(../resources/img/cabeceras/cabecera-home.jpg);
         background-repeat: no-repeat;
+
+        &--events {
+            height: 400px;
+            background-image: url(../resources/img/cabeceras/page-event-les-arts.jpg);
+            background-repeat: no-repeat;
+        }
     }
 
     &__logo {
@@ -34,7 +40,7 @@
 
 .menu__links a{
     @include font-style (qanelasRegular, 17px, 25px);
-    color: $colorBlack;
+    color: $colorWhite;
     padding-left: $padding-medium;
     text-decoration: none;
     &:hover {

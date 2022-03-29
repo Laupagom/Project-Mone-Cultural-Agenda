@@ -714,6 +714,9 @@ section.row {
 }
 
 .tag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: absolute;
   left: 15px;
   top: 15px;
@@ -721,6 +724,23 @@ section.row {
   font-size: 15px;
   line-height: 0px;
   background: #18FFFF;
+  color: #000000;
+  padding: 12px 10px;
+  border-radius: 50px;
+}
+
+.tag2 {
+  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  font-family: qanelasRegular;
+  font-size: 15px;
+  line-height: 0px;
+  background: #FF3D00;
   color: #000000;
   padding: 12px 10px;
   border-radius: 50px;
@@ -937,7 +957,12 @@ section.row {
 
 .header__main {
   height: 400px;
-  background-image: url(../resources/img/rectangle-331.jpeg);
+  background-image: url(../resources/img/cabeceras/cabecera-home.jpg);
+  background-repeat: no-repeat;
+}
+.header__main--events {
+  height: 400px;
+  background-image: url(../resources/img/cabeceras/page-event-les-arts.jpg);
   background-repeat: no-repeat;
 }
 .header__logo {
@@ -972,7 +997,7 @@ section.row {
   font-family: qanelasRegular;
   font-size: 17px;
   line-height: 25px;
-  color: #000000;
+  color: #ffffff;
   padding-left: 20px;
   text-decoration: none;
 }

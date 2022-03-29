@@ -1,4 +1,5 @@
 .tag {
+    display: flex;
     position: absolute;
     left: 15px;
     top: 15px;
@@ -8,6 +9,20 @@
     padding: 12px 10px;
     border-radius: 50px;
 }
+
+.tag2 {
+    text-align: right;
+    display: flex;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    @include font-style (qanelasRegular, 15px, 0px);
+    background: $colorOrange;
+    color: $colorBlack;
+    padding: 12px 10px;
+    border-radius: 50px;
+}
+
 .card {
     
     &__tumb {
