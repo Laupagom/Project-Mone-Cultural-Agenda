@@ -40,16 +40,15 @@
 .swiper {
     margin-top: 30px;
     padding: 0px 0px;
-    
     overflow: hidden;
-
-    z-index: z("z-below");
+    width: 88%;
+    z-index: 0;
 }
 
 .swiper2 {
     padding: 0px 0px;
     overflow: hidden;
-    z-index: z("z-below");
+    z-index: 0;
 }
 
 

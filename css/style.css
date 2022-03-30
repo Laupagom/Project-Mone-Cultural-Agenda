@@ -522,6 +522,7 @@ p {
 .search__container {
   padding-bottom: 15px;
   position: relative;
+  z-index: 0;
 }
 .search__container--searcher {
   padding: 60px;
@@ -978,6 +979,7 @@ section.row {
   height: 400px;
   background-image: url(../resources/img/cabeceras/cabecera-home.jpg);
   background-repeat: no-repeat;
+  z-index: 1;
 }
 .header__main--events {
   height: 400px;
@@ -990,6 +992,7 @@ section.row {
   background-repeat: no-repeat;
 }
 .header__logo {
+  z-index: 1;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1006,6 +1009,16 @@ section.row {
   .header__logo {
     display: block;
   }
+}
+.header__title {
+  color: #ffffff;
+  line-height: 0px;
+}
+.header__tag {
+  display: block;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .menu__links {
@@ -1052,6 +1065,7 @@ section.row {
 .newsletter {
   background-image: url(../../resources/img/cabeceras/newsletter-img.jpg);
   padding: 60px;
+  z-index: -1;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1331,13 +1345,14 @@ section.row {
   margin-top: 30px;
   padding: 0px 0px;
   overflow: hidden;
-  z-index: -1;
+  width: 88%;
+  z-index: 0;
 }
 
 .swiper2 {
   padding: 0px 0px;
   overflow: hidden;
-  z-index: -1;
+  z-index: 0;
 }
 
 .swiper__arrow {

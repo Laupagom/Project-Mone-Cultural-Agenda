@@ -1,9 +1,11 @@
 .header {
+    
 
     &__main {
         height: 400px;
         background-image: url(../resources/img/cabeceras/cabecera-home.jpg);
         background-repeat: no-repeat;
+        z-index: 1;
 
         &--events {
             height: 400px;
@@ -19,6 +21,7 @@
     }
 
     &__logo {
+        z-index: 1;
         &--img {
             min-width: 150px;
             width: 100px;
@@ -32,7 +35,18 @@
         }
         padding: 30px;    
     }
+
+    &__title {
+        color: $colorWhite;
+        line-height: 0px;
+    }
+
+    &__tag {
+        display: block;
+        justify-content: flex-end;
+    }
 }
+
 
 .menu__links {
     margin-left: auto;
