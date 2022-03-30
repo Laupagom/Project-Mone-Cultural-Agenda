@@ -1,8 +1,6 @@
 .btn {
 
     &__tag {
-
-        
         padding: 5px 15px 5px 15px;
         color: $colorBlack;
         background-color: $colorGrey;
@@ -13,21 +11,13 @@
         text-decoration: none;
         margin-top: -100px;
         @include font-style (qanelasRegular, 15px, 0px);
+        display: inline-block;
+        line-height: 1.5;
 
         &--hover {
-            padding: 5px 15px 5px 15px;
-            color: $colorBlack;
             background-color: $colorTurquoise;
-            cursor: pointer;
-            border-radius: 40px;
-            border: 0px;
-            text-align: center;
-            text-decoration: none;
-            margin-top: -100px;
-            @include font-style (qanelasRegular, 15px, 0px);
         }
-        
-        
+
         &:hover {
             background-color: $colorTurquoise;
         }
