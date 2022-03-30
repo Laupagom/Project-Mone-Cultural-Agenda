@@ -17,16 +17,19 @@
             height: 400px;
             background-image: url(../resources/img/cabeceras/cabecera-page-events.jpg);
             background-repeat: no-repeat;
+            display: flex;
         }
     }
 
-    &__logo {
+    &__topbar {
+        display: flex;
         z-index: 1;
         &--img {
             min-width: 150px;
             width: 100px;
             height: 25px;    
             padding-right: 20px;
+            align-content: center;
         }
         width: 100%;
         display: flex;
@@ -39,11 +42,18 @@
     &__title {
         color: $colorWhite;
         line-height: 0px;
+        align-items: flex-end;
+        flex: 1;
+        vertical-align: bottom;
     }
 
     &__tag {
         display: block;
         justify-content: flex-end;
+    }
+
+    &__li {
+        display: inline;
     }
 }
 

@@ -33,29 +33,6 @@
     display: none;
 }
 
-.swiper-button-next--primary, 
-.swiper-button-prev--primary {
-    position: relative;
-    top: 50%;
-    width: calc(var(--swiper-navigation-size)/ 44 * 27);
-    height: var(--swiper-navigation-size);
-    margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
-    z-index: 1;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: $colorBlack;
-    background-color: $colorGrey;
-    padding: 20px;
-    border-radius: 50%;
-}
-
-.swiper-button-next--primary:after, 
-.swiper-button-prev--primary:after {
-    display: none;
-}
-
 .swiper-title {
     width: 88%;
 }
