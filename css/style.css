@@ -897,6 +897,10 @@ section.row {
   border-radius: 20px 20px 0px 0px;
   width: 100%;
   height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 .footer {
@@ -1329,29 +1333,11 @@ section.row {
   overflow: hidden;
   z-index: -1;
 }
-@media all and (max-width: 1500px) {
-  .swiper {
-    padding: 0px 0px;
-    width: 95%;
-  }
-}
-@media all and (min-width: 1501px) {
-  .swiper {
-    padding: 0px 0px;
-    width: 88%;
-  }
-}
 
 .swiper2 {
   padding: 0px 0px;
   overflow: hidden;
-  width: 88%;
   z-index: -1;
-}
-@media all and (max-width: 1279px) {
-  .swiper2 {
-    padding: 0px 55px;
-  }
 }
 
 .swiper__arrow {
