@@ -1,7 +1,8 @@
+
 var swiper2 = new Swiper(".swiper2", {
-    slidesPerView: 4,
+    slidesPerView: 5,
     spaceBetween: 15,
-    slidesPerGroup: 4,
+    slidesPerGroup: 5,
     loop: true,
     loopFillGroupWithBlank: true,
     pagination: {
@@ -9,21 +10,21 @@ var swiper2 = new Swiper(".swiper2", {
         clickable: true,
     },
     navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        nextEl: ".swiper-button-next--primary",
+        prevEl: ".swiper-button-prev--primary",
     },
     breakpoints: {
-        280: {
-            slidesPerView: 1,
-            spaceBetween: 15,
-        },
-        768: {
-            slidesPerView: 3,
-            spaceBetween: 15,
-        },
-        1280: {
-            slidesPerView: 4,
-            spaceBetween: 15,
-        },
+    280: {
+        slidesPerView: 1,
+        spaceBetween: 15,
+    },
+    768: {
+        slidesPerView: 3,
+        spaceBetween: 15,
+    },
+    1280: {
+        slidesPerView: 5,
+        spaceBetween: 15,
+    },
     },
 });

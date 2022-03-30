@@ -1,36 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
         rel="stylesheet"
         href="https://unpkg.com/swiper/swiper-bundle.min.css"
         />
-        <title>Document</title>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <header class="header__main">
-            <div class="header__logo">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header__main">
+            <div class="header__logo" id="myHeader">
                 <img class="header__logo--img"
                     src="resources/logo/logo-mone-eventos-en-valencia.png"
                     onmouseover="this.src='resources/logo/logo-hover-mone-eventos-en-valencia.png'"
                     onmouseout="this.src='resources/logo/logo-mone-eventos-en-valencia.png'"
                     />
-
-                <a class="btn__header--search--link" href="buscador.html">
-                    <button href="buscador.html" class="btn__header--search" type="button">
-                        Busca un evento en Valencia
-                    </button> 
-                </a>
+                
                 <section class="menu__links">
                     <a href="#">Eventos</a>
                     <a href="#">Noticias</a>
                     <a href="#">Iniciar sesión</a>
                 </section>
-
+                <!--menu mobile-->
                 <nav role='navigation' id="mobile-nav">
                     <div class="menu__toggle">
 
@@ -61,12 +56,16 @@
                 </nav>
             </div>
 
-           
-            </div>
-        </header>
-        
-        <main >
-
+            <section class="content__widht search__wrapper">
+                <h3 class="search__claim">¿No tienes plan?</h3>
+                <div class="search__container">
+                  <input type="text" class="search__input" placeholder="...">
+                  <input type="button" value="vinga, mone! ➔" class="search__btn">
+                </div>
+            </section>
+        </div>
+    </header>
+    <main >
             <!-- Swiper category events-->
             <div><h3>Eventos destacados</h3></div>
             <div class="swiper2 mySwiper">
