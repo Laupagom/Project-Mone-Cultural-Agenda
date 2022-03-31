@@ -13,6 +13,7 @@
         @include font-style (qanelasRegular, 15px, 0px);
         display: inline-block;
         line-height: 1.5;
+        margin: 5px;
 
         &--hover {
             background-color: $colorTurquoise;

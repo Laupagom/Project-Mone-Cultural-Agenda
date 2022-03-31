@@ -257,6 +257,7 @@ p {
   line-height: 0px;
   display: inline-block;
   line-height: 1.5;
+  margin: 5px;
 }
 .btn__tag--hover {
   background-color: #18FFFF;
@@ -1056,8 +1057,6 @@ section.row {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
 }
 
 .menu__links {
