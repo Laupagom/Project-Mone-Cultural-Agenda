@@ -1469,6 +1469,12 @@ section.row {
           justify-content: center;
   background-image: url(../../resources/img/cabeceras/payment-img1.jpg);
 }
+.payment__link a {
+  color: #FF3D00;
+}
+.payment__link a:hover {
+  color: #000000;
+}
 
 .new {
   padding: 15px;

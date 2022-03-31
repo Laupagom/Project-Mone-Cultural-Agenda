@@ -55,5 +55,13 @@
         justify-content: center;
         background-image: url(../../resources/img/cabeceras/payment-img1.jpg);
     }
+
+    &__link a{
+        color: $colorOrange;
+        &:hover {
+            color: $colorBlack;
+        }
+
+    }
 }
  
