@@ -27,7 +27,7 @@
             }
         }
     }
-  
+
     &__input {
         width: 450px;
         border: none;
@@ -41,7 +41,7 @@
 
         @media all and (max-width: 550px) {
             border-radius: 0px;
-            width: 300px;
+            width: 100%;
         }
         ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
             color: $colorBlack;

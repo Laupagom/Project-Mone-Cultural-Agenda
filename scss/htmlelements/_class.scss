@@ -1,18 +1,18 @@
 .class {
 
-    &__color--grey {
-        color: $colorGreyDark;
-    }
-
     &__margin--top {
-        margin-top:  40px;
-        margin-bottom: 0px;
+        margin-top: $unit-medium;
     }
 
-    &__margin-details {
-        padding: 0px 25px;
-        border: rgba(128, 128, 128, 0.192) 2px solid;
-        border-radius: 20px;
+    &__margin--bottom {
+        margin-bottom: $unit-medium;
+    }
+
+    &__margin--details {
+        padding: 2px 20px;
+        background-color: $colorOrange;
+        border-radius: 20px 20px 0px 0px;
+        color: $colorWhite;
     }
 
     &__align--right {
@@ -27,6 +27,10 @@
     }
 
     &__padding--bottom {
-        padding-bottom: $unit-medium;
+        padding-bottom: $unit;
+    }
+
+    &__padding--top {
+        padding-top: $unit;
     }
 }
