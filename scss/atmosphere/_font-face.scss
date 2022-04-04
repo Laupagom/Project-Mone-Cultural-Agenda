@@ -7,7 +7,6 @@
     font-weight: 900;
     font-style: normal;
 }
-
 //heavy-italic
 @font-face {
     font-family: 'whyteItalic';
@@ -17,11 +16,10 @@
     font-weight: 900;
     font-style: normal;
 }
-
 //qanelas
 @font-face {
-     font-family: 'qanelasRegular';
-     src: url('../font/Qanelas-Regular.ttf') format('ttf'),
+    font-family: 'qanelasRegular';
+    src: url('../font/Qanelas-Regular.ttf') format('ttf'),
     url('../font/Qanelas-Regular.woff') format('woff'),
     url('../font/Qanelas-Regular.woff2') format('woff2');
     font-weight: 900;

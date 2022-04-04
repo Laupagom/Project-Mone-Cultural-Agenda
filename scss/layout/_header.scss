@@ -3,23 +3,26 @@
 
     &__main {
         height: 400px;
-        background-image: url(../resources/img/cabeceras/cabecera-home.jpg);
         background-repeat: no-repeat;
-        z-index: 1;
+
+        &--home {
+            background-image: url(../resources/img/cabeceras/cabecera-home.jpg);
+            z-index: 1;
+        }
 
         &--events {
-            height: 400px;
-            background-image: url(../resources/img/cabeceras/page-event-les-arts.jpg);
-            background-repeat: no-repeat;
-        }
-
-        &--conciertos {
-            height: 400px;
-            background-image: url(../resources/img/cabeceras/cabecera-page-events.jpg);
-            background-repeat: no-repeat;
             display: flex;
             flex-direction: column;
+                &--events {
+                    background-image: url(../resources/img/cabeceras/page-event-les-arts.jpg);
+                }
+
+                &--conciertos {
+                    background-image: url(../resources/img/cabeceras/cabecera-page-events.jpg);  
+                }
         }
+
+        
     }
 
     &__topbar {
