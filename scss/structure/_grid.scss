@@ -4,54 +4,40 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-    
         &__cell {
-    
             &--100 {
                 flex: 0 0 calc(100%);
             }
-
             &--80 {
                 flex: 0 0 calc(80%);
             }
-
             &--75 {
                 flex: 0 0 calc(75%);
             }
-
             &--70 {
                 flex: 0 0 calc(70%);
             }
-
             &--65 {
                 flex: 0 0 calc(65%);
             }
-    
             &--60 {
                 flex: 0 0 calc(60%);
             }
-
             &--50 {
                 flex: 0 0 calc(50% - 30px);
-
             }
-            
             &--45 {
                 flex: 0 0 calc(45%);
             }
-
             &--35 {
                 flex: 0 0 calc(35%);
             }
-
             &--33{
                 flex: 0 0 calc(33%);
             }
-    
             &--25 {
                 flex: 0 0 calc(25%);
             }
-
             &--20 {
                 flex: 0 0 calc(20%);
             }
@@ -59,53 +45,40 @@
     }
     }
     
-    
-    
     // media
     @media all and (max-width: 849px) {
         .grid {        
             &__cell {
-    
                 &--100 {
                     flex: 0 0 calc(100%);
                 }
-                
                 &--80 {
                     flex: 0 0 calc(100%);
                 }
-
                 &--75 {
                     flex: 0 0 calc(100%);
                 }
-
                 &--65 {
                     flex: 0 0 calc(100%);
                 }
-
                 &--60 {
                     flex: 0 0 calc(100%);
                 }
-    
                 &--50 {
                     flex: 0 0 calc(100%);
                 }
-
                 &--45 {
                     flex: 0 0 calc(100%);
                 }
-
                 &--35 {
                     flex: 0 0 calc(100%);
                 }
-        
                 &--33 {
                     flex: 0 0 calc(100%);
                 }
-                
                 &--25 {
                     flex: 0 0 calc(100%);
                 }
-
                 &--20 {
                     flex: 0 0 calc(100%);
                 }

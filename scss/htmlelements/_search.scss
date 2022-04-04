@@ -6,8 +6,7 @@
         padding-top: 50px;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        
+        align-items: center; 
     }
 
     &__claim {
@@ -15,7 +14,6 @@
         color: $colorWhite;
 
     }
-  
     &__container {
         padding-bottom: $padding-small;
         position: relative;
@@ -36,18 +34,14 @@
         border-radius: 30px;
         outline: none;
         color: $colorOrange;
-
         @include font-style (qanelasRegular, 17px, 0px);
-
         @media all and (max-width: 550px) {
             border-radius: 0px;
             width: 100%;
         }
         ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
             color: $colorBlack;
-        
         }
-        
         ::-moz-placeholder { /* Firefox 19+ */
             color: $colorBlack;
         }
@@ -63,18 +57,12 @@
             border-radius: 30px;
             outline: none;
             color: $colorOrange;
-    
             @include font-style (qanelasRegular, 17px, 0px);
-    
             @media all and (max-width: 550px) {
                 width: 350px;
             }
         }
-        
     }
-
-    
-  
 
     &__btn {
         position: absolute;
@@ -123,10 +111,8 @@
                 right: 0px;
                 text-align: right;
                 padding-right: 20px;
-        }
-            
-        }
-        
+            }
+        } 
     }
 
     &__subtitulo {
@@ -134,10 +120,4 @@
         line-height: 0px;
         padding-left: $padding-small;
     }
-
-    
 }
-
-  
-  
-  

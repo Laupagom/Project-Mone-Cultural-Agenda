@@ -12,7 +12,7 @@
         text-decoration: none;
         color: $colorBlack;
         transition: color 0.3s ease;
-
+        
         &:hover {
             color: $colorOrange;
         }
@@ -28,6 +28,7 @@
         -webkit-user-select: none;
         user-select: none;
     }
+
     .menu__toggle input {
         display: block;
         width: 40px;
@@ -109,7 +110,6 @@
         transform: none;
         opacity: 1;
     }
-    
 }
 
 @media all and (min-width: 801px) {

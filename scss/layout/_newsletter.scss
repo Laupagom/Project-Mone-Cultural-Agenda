@@ -2,13 +2,12 @@
     background-image: url(../../resources/img/cabeceras/newsletter-img.jpg);
     padding: 60px;
     z-index: -1;
+    text-align: center;
+    display: flex;
 
     @media all and (max-width: 760px) {
         padding: 30px;
     }
-
-    text-align: center;
-    display: flex;
 
     &__claim {
         margin-bottom: 0px;

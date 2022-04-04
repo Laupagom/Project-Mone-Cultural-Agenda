@@ -1,6 +1,6 @@
 .card-row {
-      text-align: center;
-      padding: $margin-medium 0px;
+    text-align: center;
+    padding: $margin-medium 0px;
 }
 
 .center {
@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .checkout {
     width: 50%;
     min-width: 300px;
@@ -23,13 +24,11 @@
     &__img {
         border-radius: 20px 20px 0px 0px;
     }
-  }
-  
-
+}
 
 .payment {
- text-align: center;
- border-radius: 20px;
+    text-align: center;
+    border-radius: 20px;
 
     &__title {
         margin-bottom: 0px;
@@ -61,7 +60,5 @@
         &:hover {
             color: $colorBlack;
         }
-
     }
 }
- 

@@ -28,59 +28,44 @@
 
         &--event {
             padding: 10px;
+            cursor: pointer;
+            border-radius: 40px;
+            text-align: center;
+            text-decoration: none;
+            margin-right: 15px;
+            @include font-style (qanelasRegular, 15px, 0px);
+            box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.10);
+            padding: 15px;
+            @media all and (max-width: 1100px) {
+                margin-bottom: $unit-medium;
+            }
 
             &--compartir {
-                border: $colorWhite 2px solid;
-                padding: 15px;
-                background-color: $colorWhite;
-                cursor: pointer;
-                border-radius: 40px;
-                text-align: center;
-                text-decoration: none;
-                margin-right: 15px;
-                @include font-style (qanelasRegular, 15px, 0px);
-                box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.10);
-                
-                
-                @media all and (max-width: 1100px) {
-                    margin-bottom: $unit-medium;
-                }
+                    border: $colorWhite 2px solid;
+                    background-color: $colorWhite;
 
                 &:hover {
                     background-color: $colorTurquoise;
                     border: $colorTurquoise 2px solid;
                     box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.10);
                 }
-
             }
 
             &--like {
-                border: $colorTurquoise 2px solid;
-                padding: 15px;
-                background-color: $colorTurquoise;
-                cursor: pointer;
-                border-radius: 40px;
-                text-align: center;
-                text-decoration: none;
-                box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.10);
-                @include font-style (qanelasRegular, 15px, 0px);
-
-                @media all and (max-width: 1100px) {
-                    margin-bottom: $unit-medium;
-                }
+                    border: $colorTurquoise 2px solid;
+                    background-color: $colorTurquoise;
 
                 &:hover {
                     background-color: $colorWhite;
                     border: $colorWhite 2px solid;
                     box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.10);
                 }
-
             }
         }
     }
 
     &__cta {
-
+        
             &--orange--left {
                 background-color: $colorOrange;
                 text-align: left;
@@ -107,7 +92,6 @@
                 text-align: center;
                 padding: 30px 15px 25px 15px;
                 width: 100%;
-
 
                 &--news {
                     margin-top: 1px;
@@ -174,7 +158,6 @@
                 h3 {
                     margin: 0px;
                 }
-
             }
 
             &--black {
@@ -225,9 +208,6 @@
                 h3 {
                     margin: 0px;
                 }
-                
-                
-                
             }
     }
 
@@ -249,9 +229,7 @@
 
     &--link {
         text-decoration: none;
-    }
-
-    
+    } 
 }
 
     &__payment {
@@ -266,7 +244,6 @@
             @media all and (max-width: 1279px) {
             margin-top: $unit-medium;
             }
-
         }
 
         &--right {
@@ -277,12 +254,9 @@
         }
     }
 }
-  
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: $colorBlack;
-   
 }
-  
 ::-moz-placeholder { /* Firefox 19+ */
     color: $colorBlack;
 }

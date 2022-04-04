@@ -1,6 +1,4 @@
-.header {
-    
-
+.header { 
     &__main {
         height: 400px;
         background-repeat: no-repeat;
@@ -20,10 +18,12 @@
                 &--conciertos {
                     background-image: url(../resources/img/cabeceras/cabecera-page-events.jpg);  
                 }
-        }
 
-        
-    }
+                &--lesarts {
+                    background-image: url(../../resources/img/cabeceras/page-event-les-arts.jpg);  
+                }
+            }
+        }
 
     &__topbar {
         display: flex;
@@ -69,7 +69,6 @@
 
 .menu__links {
     margin-left: auto;
-
     @media all and (max-width: 850px) {
         margin-left: 0px;
     }
@@ -80,6 +79,7 @@
     color: $colorWhite;
     padding-left: $padding-medium;
     text-decoration: none;
+    
     &:hover {
         color: $colorOrange;
     } 

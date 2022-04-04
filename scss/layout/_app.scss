@@ -14,11 +14,8 @@
     &__img {
         float: right;
         background-color: $colorGrey;
-
         @media all and (max-width: 750px) {
             margin-bottom: $unit;
         }
-    }
-
-    
+    }  
 }
