@@ -859,6 +859,7 @@ section.row {
   padding: 0px 15px 0px 15px;
   padding-bottom: 10px;
   margin-bottom: 0px;
+  margin-top: 5px;
 }
 .card__date {
   display: block;
@@ -873,15 +874,15 @@ section.row {
 }
 .card__title {
   display: block;
-  margin-top: 30px;
+  margin-top: 20px;
   font-family: whyte;
   font-size: 20px;
-  line-height: 0px;
+  line-height: 20px;
   color: #000000;
   padding: 0px 15px 0px 15px;
 }
 .card__title--category {
-  margin-top: 0px;
+  margin-bottom: 0px;
   line-height: 60px;
   font-family: whyte;
   font-size: 20px;
