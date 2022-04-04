@@ -1,0 +1,24 @@
+.app {
+    background-color: $colorGrey;
+    margin-top: $unit;
+
+    &__content {
+        padding: 15px;
+    }
+    
+    &__claim {
+        margin-bottom: 0px;
+        padding-top: $unit-medium;
+    }
+
+    &__img {
+        float: right;
+        background-color: $colorGrey;
+
+        @media all and (max-width: 750px) {
+            margin-bottom: $unit;
+        }
+    }
+
+    
+}
