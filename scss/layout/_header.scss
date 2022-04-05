@@ -13,19 +13,19 @@
             display: flex;
             flex-direction: column;
                 &--events {
-                    background-image: url(/../../resources/img/cabeceras/cabecera-page-events.jpg);
+                    background-image: url(../resources/img/cabeceras/cabecera-page-events.jpg);
                 }
 
                 &--conciertos {
-                    background-image: url(../../resources/img/cabeceras/cabecera-conciertos-mone.jpg);  
+                    background-image: url(../resources/img/cabeceras/cabecera-conciertos-mone.jpg);  
                 }
 
                 &--festivales {
-                    background-image: url(../../resources/img/cabeceras/cabecera-festivales-mone.jpg);  
+                    background-image: url(../resources/img/cabeceras/cabecera-festivales-mone.jpg);  
                 }
 
                 &--lesarts {
-                    background-image: url(../../resources/img/cabeceras/page-event-les-arts.jpg); 
+                    background-image: url(../resources/img/cabeceras/page-event-les-arts.jpg); 
                     height: 400px;
                 }
             }

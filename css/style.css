@@ -987,16 +987,16 @@ section.row {
           flex-direction: column;
 }
 .header__main--events--events {
-  background-image: url(/../../resources/img/cabeceras/cabecera-page-events.jpg);
+  background-image: url(../resources/img/cabeceras/cabecera-page-events.jpg);
 }
 .header__main--events--conciertos {
-  background-image: url(../../resources/img/cabeceras/cabecera-conciertos-mone.jpg);
+  background-image: url(../resources/img/cabeceras/cabecera-conciertos-mone.jpg);
 }
 .header__main--events--festivales {
-  background-image: url(../../resources/img/cabeceras/cabecera-festivales-mone.jpg);
+  background-image: url(../resources/img/cabeceras/cabecera-festivales-mone.jpg);
 }
 .header__main--events--lesarts {
-  background-image: url(../../resources/img/cabeceras/page-event-les-arts.jpg);
+  background-image: url(../resources/img/cabeceras/page-event-les-arts.jpg);
   height: 400px;
 }
 .header__topbar {
@@ -1358,9 +1358,11 @@ section.row {
 }
 
 .swiper-slide:hover {
-  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.45);
-          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
   border-radius: 20px 20px 0px 0px;
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
 }
 
 .swiper-button-next,
@@ -1398,7 +1400,7 @@ section.row {
 
 .swiper {
   margin-top: 30px;
-  padding: 0px 0px;
+  padding: 0px 15px;
   overflow: hidden;
   width: 88%;
   z-index: 0;
