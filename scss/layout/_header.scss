@@ -1,6 +1,6 @@
 .header { 
     &__main {
-        height: 400px;
+        height: 100%;
         background-repeat: no-repeat;
 
         &--home {
@@ -24,7 +24,8 @@
                 }
 
                 &--lesarts {
-                    background-image: url(../../resources/img/cabeceras/page-event-les-arts.jpg);  
+                    background-image: url(../../resources/img/cabeceras/page-event-les-arts.jpg); 
+                    height: 300px; 
                 }
             }
         }
@@ -48,7 +49,6 @@
 
     &__bottom {
         color: $colorWhite;
-        line-height: 0px;
         flex: 1;
         justify-content: flex-end;
         flex-direction: column;
@@ -63,6 +63,11 @@
         display: flex;
     }
 
+    &__title {
+        margin-bottom: 0px;
+        padding-top: $unit-medium;
+    }
+
     &__tag {
         display: block;
         justify-content: flex-end;
@@ -73,6 +78,7 @@
         margin: 0;
         padding: 0;
         list-style-type: none;
+        flex-wrap: wrap;
     }
 }
 

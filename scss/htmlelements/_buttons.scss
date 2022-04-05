@@ -1,6 +1,7 @@
 .btn {
 
     &__tag {
+        min-width: 100px;
         padding: 5px 15px 5px 15px;
         color: $colorBlack;
         background-color: $colorGrey;
@@ -65,7 +66,7 @@
     }
 
     &__cta {
-        
+
             &--orange--left {
                 background-color: $colorOrange;
                 text-align: left;
