@@ -16,7 +16,11 @@
                 }
 
                 &--conciertos {
-                    background-image: url(../resources/img/cabeceras/cabecera-page-events.jpg);  
+                    background-image: url(../../resources/img/cabeceras/cabecera-conciertos-mone.jpg);  
+                }
+
+                &--festivales {
+                    background-image: url(../../resources/img/cabeceras/cabecera-festivales-mone.jpg);  
                 }
 
                 &--lesarts {
@@ -50,6 +54,12 @@
         flex-direction: column;
         padding: 0px 20px 40px 20px;
         margin: 0px 60px 0px 60px;
+        @media all and (max-width: 768px) {
+            margin: 0px 30px 0px 30px;
+        }
+        @media all and (max-width: 480px) {
+            margin: 0px 10px 0px 10px;
+        }
         display: flex;
     }
 
