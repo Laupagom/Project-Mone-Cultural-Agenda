@@ -2,7 +2,7 @@
 var swiper2 = new Swiper(".swiper2", {
     slidesPerView: 5,
     spaceBetween: 15,
-    slidesPerGroup: 5,
+    slidesPerGroup: 1,
     loop: true,
     loopFillGroupWithBlank: true,
     pagination: {
@@ -15,7 +15,7 @@ var swiper2 = new Swiper(".swiper2", {
     },
     breakpoints: {
     280: {
-        slidesPerView: 1,
+        slidesPerView: 2,
         spaceBetween: 15,
     },
     768: {

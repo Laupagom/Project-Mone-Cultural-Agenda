@@ -16,6 +16,12 @@
         line-height: 1.5;
         margin: 5px;
 
+        @media all and (max-width: 450px) {
+            @include font-style (qanelasRegular, 13px, 0px);
+            padding: 12px 5px 12px 5px;
+            min-width: 90px;
+        }
+
         &--hover {
             background-color: $colorTurquoise;
         }
