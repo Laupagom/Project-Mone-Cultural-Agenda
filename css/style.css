@@ -993,7 +993,7 @@ section.row {
           flex-direction: column;
 }
 .header__main--events--events {
-  background-image: url(/resources/img/cabeceras/cabecera-page-events.jpg);
+  background-image: url(/../../resources/img/cabeceras/cabecera-page-events.jpg);
 }
 .header__main--events--conciertos {
   background-image: url(../../resources/img/cabeceras/cabecera-conciertos-mone.jpg);
@@ -1003,7 +1003,7 @@ section.row {
 }
 .header__main--events--lesarts {
   background-image: url(../../resources/img/cabeceras/page-event-les-arts.jpg);
-  height: 300px;
+  height: 400px;
 }
 .header__topbar {
   display: -webkit-box;

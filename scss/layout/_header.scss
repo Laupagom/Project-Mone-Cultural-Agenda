@@ -13,7 +13,7 @@
             display: flex;
             flex-direction: column;
                 &--events {
-                    background-image: url(/resources/img/cabeceras/cabecera-page-events.jpg);
+                    background-image: url(/../../resources/img/cabeceras/cabecera-page-events.jpg);
                 }
 
                 &--conciertos {
@@ -26,7 +26,7 @@
 
                 &--lesarts {
                     background-image: url(../../resources/img/cabeceras/page-event-les-arts.jpg); 
-                    height: 300px; 
+                    height: 400px;
                 }
             }
         }
