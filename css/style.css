@@ -195,7 +195,7 @@ h2 {
 
 h3 {
   font-family: whyte;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 0px;
 }
 
@@ -341,7 +341,7 @@ p {
 .btn__cta--orange {
   background-color: #FF3D00;
   text-align: center;
-  padding: 30px 15px 25px 15px;
+  padding: 20px 15px 15px 15px;
   width: 100%;
 }
 .btn__cta--orange--news {
@@ -544,7 +544,7 @@ p {
 @media all and (max-width: 550px) {
   .search__input {
     border-radius: 0px;
-    width: 100%;
+    width: 270px;
   }
 }
 .search__input ::-webkit-input-placeholder {
@@ -639,13 +639,6 @@ p {
   padding-left: 15px;
 }
 
-/*.maquina {
-    animation: escribir 5s steps(30) infinite alternate;
-}
-@keyframes escribir {
-    from { width: 100% }
-    to { width:0 }
-}*/
 .links {
   padding: 15px;
 }
@@ -987,13 +980,13 @@ section.row {
           flex-direction: column;
 }
 .header__main--events--events {
-  background-image: url(../resources/img/cabeceras/cabecera-page-events.jpg);
+  background-image: url(../resources/img/cabeceras/cabecera-eventos.jpg);
 }
 .header__main--events--conciertos {
   background-image: url(../resources/img/cabeceras/cabecera-conciertos-mone.jpg);
 }
 .header__main--events--festivales {
-  background-image: url(../resources/img/cabeceras/cabecera-festivales-mone.jpg);
+  background-image: url(../resources/img/cabeceras/cabecera-festivales.jpg);
 }
 .header__main--events--lesarts {
   background-image: url(../resources/img/cabeceras/page-event-les-arts.jpg);
@@ -1394,21 +1387,27 @@ section.row {
   display: none;
 }
 
-.swiper-title {
+h3.swiper__title {
   width: 88%;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  line-height: 30px;
 }
 
 .swiper {
-  margin-top: 30px;
-  padding: 0px 15px;
+  margin-top: 20px;
   overflow: hidden;
   width: 88%;
   z-index: 0;
 }
+@media all and (max-width: 450px) {
+  .swiper {
+    padding: 0px 0px;
+  }
+}
 
 .swiper2 {
   margin-top: 30px;
-  padding: 0px 0px;
   overflow: hidden;
   width: 88%;
   z-index: 0;

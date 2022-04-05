@@ -34,13 +34,18 @@
     display: none;
 }
 
-.swiper-title {
+h3.swiper__title {
     width: 88%;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    line-height: 30px;
 }
 
 .swiper {
-    margin-top: 30px;
-    padding: 0px 15px;
+    margin-top: 20px;
+    @media all and (max-width: 450px) {
+        padding: 0px 0px;    
+    }
     overflow: hidden;
     width: 88%;
     z-index: 0;
@@ -48,7 +53,6 @@
 
 .swiper2 {
     margin-top: 30px;
-    padding: 0px 0px;
     overflow: hidden;
     width: 88%;
     z-index: 0;

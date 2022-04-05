@@ -37,7 +37,7 @@
         @include font-style (qanelasRegular, 17px, 0px);
         @media all and (max-width: 550px) {
             border-radius: 0px;
-            width: 100%;
+            width: 270px;
         }
         ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
             color: $colorBlack;
@@ -121,11 +121,3 @@
         padding-left: $padding-small;
     }
 }
-
-/*.maquina {
-    animation: escribir 5s steps(30) infinite alternate;
-}
-@keyframes escribir {
-    from { width: 100% }
-    to { width:0 }
-}*/
