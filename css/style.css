@@ -1484,7 +1484,7 @@ h3.swiper__title {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url(../resources/img/cabeceras/payment-img1.jpg);
+  background-image: url(../../resources/img/cabeceras/payment-img1.jpg);
 }
 .payment__link a {
   color: #FF3D00;
