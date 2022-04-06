@@ -1393,6 +1393,9 @@ h3.swiper__title {
   margin-top: 10px;
   line-height: 30px;
 }
+h3.swiper__title--news {
+  width: 98%;
+}
 
 .swiper {
   margin-top: 20px;
