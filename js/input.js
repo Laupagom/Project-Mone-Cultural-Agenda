@@ -1,5 +1,5 @@
-const text = 'Buscar artistas'
-document.querySelector('search__input').placeholder = text;
+const text = 'Conciertos este sábado'
+document.querySelector('.search__input').placeholder = text;
 let counter = text.length;
 let modificador = -1
 setInterval(function() {
@@ -10,5 +10,5 @@ setInterval(function() {
     modificador = -1;
     }
     counter = counter + modificador;
-    document.querySelector('search__input').placeholder = text.substring(0, counter);
+    document.querySelector('.search__input').placeholder = text.substring(0, counter);
 }, 200);
