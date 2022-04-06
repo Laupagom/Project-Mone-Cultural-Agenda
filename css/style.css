@@ -376,7 +376,7 @@ p {
 .btn__cta--orange--ticket--payment {
   display: flow-root;
   text-align: right;
-  padding: 15px 30px 12px 15px;
+  padding: 4px 15px 0px 15px;
   width: 100%;
   background-color: #FF3D00;
 }
@@ -605,7 +605,7 @@ p {
 }
 .search__btn--newsletter {
   position: absolute;
-  right: 120px;
+  right: 200px;
   cursor: pointer;
   color: #ffffff;
   background: #FF3D00;
@@ -892,7 +892,7 @@ section.row {
 
 .footer {
   background-color: #F2F0F0;
-  margin-top: 60px;
+  padding-top: 20px;
 }
 .footer__content {
   margin-left: auto;
