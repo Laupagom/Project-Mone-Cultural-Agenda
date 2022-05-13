@@ -1,15 +1,6 @@
-# project-beta
-
-Prototype Design
-https://www.figma.com/file/yfD0F5uHW56cQSwSg6vSfW/Laura-projectalpha?node-id=301%3A93
-
-Concept Idea
-https://miro.com/app/board/o9J_llETwC8=/
-
 # **Project-beta**
 
 ## **Objetivo**
-
 
 En este proyecto se quiere crear una página web de venta de entradas e información de eventos culturales en la ciudad de Valencia.
 
